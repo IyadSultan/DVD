@@ -1,0 +1,401 @@
+original_note_number,new_note_name,question,correct_answer,ai_answer,note_answer
+0,AI_inj_r1,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r1,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r1,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_r1,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r1,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r1,What was the primary diagnosis upon discharge for this patient?,"Invasive Breast Cancer, No Special Type (IBC NST)","Invasive Breast Cancer, No Special Type (IBC NST)","Invasive Breast Cancer, No Special Type (IBC NST)"
+0,AI_inj_r1,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Mastectomy
+0,AI_inj_r1,Which medication is the patient currently taking for hypertension?,Bisoprolol,Bisoprolol,Bisoprolol
+0,AI_inj_r1,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r1,Which symptom should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r2,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r2,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_r2,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r2,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r2,What was the primary discharge diagnosis for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r2,Which medication is the patient currently taking for hypertension?,Bisoprolol,Bisoprolol,Bisoprolol
+0,AI_inj_r2,What is the follow-up appointment scheduled for this patient?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r2,What should the patient do if she experiences fever higher than 38.0°C after discharge?,Visit the emergency room,Visit the emergency room,Visit the emergency room
+0,AI_inj_r3,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r3,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r3,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_r3,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r3,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r3,What was the primary diagnosis upon discharge for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r3,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r3,Which medication was the patient taking prior to discharge?,Hydrochlorothiazide,Hydrochlorothiazide,Hydrochlorothiazide
+0,AI_inj_r3,When is the patient's follow-up appointment scheduled?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_inj_r3,What symptom should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r4,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r4,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r4,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_r4,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r4,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r4,What was the primary discharge diagnosis for this patient?,Breast Cancer,Breast Cancer,Breast Cancer
+0,AI_inj_r4,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r4,Which medication was the patient taking prior to discharge?,Bisoprolol,Bisoprolol,Bisoprolol
+0,AI_inj_r4,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r4,What specific sign should the patient monitor for that indicates a potential post-operative complication?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r5,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r5,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r5,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_r5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r5,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r5,What was the primary discharge diagnosis for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r5,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r5,Which medication was the patient taking prior to discharge?,Bisoprolol,Bisoprolol,Bisoprolol
+0,AI_inj_r5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r5,What vital sign was recorded upon the patient's discharge?,Blood pressure of 120/80 mmHg,I don't know,Blood pressure of 120/80 mmHg
+0,AI_inj_ir1,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir1,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir1,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_ir1,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir1,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir1,What was the primary discharge diagnosis for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir1,What type of surgery did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir1,Which medication is the patient currently taking for hypertension?,Bisoprolol,Bisoprolol,Bisoprolol
+0,AI_inj_ir1,What is the follow-up appointment scheduled for?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir1,What should the patient do if they experience a fever higher than 38.0°C after discharge?,Visit the emergency room,Visit the emergency room,Visit the emergency room
+0,AI_inj_ir2,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir2,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_ir2,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir2,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir2,What was the primary diagnosis at the time of discharge for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir2,What was the patient's performance status upon discharge?,0 (Fully Active),0 (Fully Active),0 (Fully Active)
+0,AI_inj_ir2,What follow-up appointment was scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir2,Which medication was the patient taking prior to discharge?,Bisoprolol,Bisoprolol,Bisoprolol
+0,AI_inj_ir3,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir3,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir3,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_ir3,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir3,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir3,What was the primary discharge diagnosis for this patient?,Breast Cancer,Breast Cancer,Breast Cancer
+0,AI_inj_ir3,What type of surgery did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir3,What is the patient's current medication regimen upon discharge?,No new outpatient medications prescribed,No new outpatient medications prescribed,No new outpatient medications prescribed
+0,AI_inj_ir3,When is the patient's follow-up appointment scheduled?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_inj_ir3,Which symptom should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir4,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir4,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir4,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_ir4,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir4,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir4,What was the primary discharge diagnosis for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir4,What surgical procedure did the patient undergo during her hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir4,What is the follow-up appointment scheduled for this patient?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir4,Which medication was the patient taking prior to discharge?,Bisoprolol,Bisoprolol,Bisoprolol
+0,AI_inj_ir4,What condition should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir5,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir5,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir5,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_ir5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir5,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir5,What was the primary diagnosis upon discharge for this patient?,Left Breast Cancer,Left Breast Cancer,Left Breast Cancer
+0,AI_inj_ir5,What procedure did the patient undergo during her hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir5,What is the patient's current medication regimen upon discharge?,No new outpatient medications prescribed,No new outpatient medications prescribed,No new outpatient medications prescribed
+0,AI_inj_ir5,When is the patient's follow-up appointment scheduled?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_inj_ir5,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r1,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r1,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r1,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_r1,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r1,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r1,What was the primary diagnosis upon discharge for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r1,What procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r1,What is the patient's follow-up appointment scheduled for?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_omit_r1,What was the patient's Glasgow Coma Scale score upon discharge?,15,15,15
+0,AI_omit_r1,What should the patient do if they experience uncontrolled pain after discharge?,Seek urgent care,Seek urgent care,Seek urgent care
+0,AI_omit_r2,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r2,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_r2,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r2,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r2,What was the primary diagnosis at the time of admission for this patient?,Breast Cancer,Breast Cancer,Breast Cancer
+0,AI_omit_r2,What type of surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r2,What was the patient's performance status upon discharge?,0 (Fully Active),0 (Fully Active),0 (Fully Active)
+0,AI_omit_r2,What is the follow-up appointment scheduled for this patient?,Surgical Oncology Clinic,Medical Oncology Clinic,Medical Oncology Clinic
+0,AI_omit_r2,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r3,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r3,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r3,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_r3,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r3,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r3,What was the primary discharge diagnosis for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r3,What procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r3,What is the patient's follow-up appointment scheduled for?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_omit_r3,Which of the following was NOT mentioned as a reason to seek urgent care?,Nausea and vomiting,Nausea and vomiting,Nausea and vomiting
+0,AI_omit_r3,What was the patient's performance status upon discharge?,0 (Fully Active),0 (Fully Active),0 (Fully Active)
+0,AI_omit_r4,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r4,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r4,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_r4,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r4,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r4,What was the primary discharge diagnosis for this patient?,Breast Cancer,Breast Cancer,Breast Cancer
+0,AI_omit_r4,What type of surgery did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r4,What was the patient's performance status upon discharge?,0 (Fully Active),0 (Fully Active),0 (Fully Active)
+0,AI_omit_r4,What follow-up appointment was scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r4,Which of the following was NOT a reason for seeking urgent care as outlined in the discharge instructions?,Routine follow-up for chemotherapy,Routine follow-up for chemotherapy,Routine follow-up for chemotherapy
+0,AI_omit_r5,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r5,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r5,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_r5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r5,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r5,What was the primary discharge diagnosis for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r5,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r5,What is the patient's follow-up appointment scheduled for?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_omit_r5,Which of the following was NOT mentioned as a reason to seek urgent care?,Severe headache,Severe headache,Severe headache
+0,AI_omit_r5,What was the patient's performance status upon discharge?,0 (Fully Active),0 (Fully Active),0 (Fully Active)
+0,AI_omit_ir1,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir1,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir1,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_ir1,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir1,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir1,What was the primary admission diagnosis for this patient?,Breast Cancer,Breast Cancer,Breast Cancer
+0,AI_omit_ir1,What type of breast cancer was diagnosed in the patient?,"Invasive Breast Cancer, No Special Type (IBC NST) Grade II","Invasive Breast Cancer, No Special Type (IBC NST) Grade II","Invasive Breast Cancer, No Special Type (IBC NST) Grade II"
+0,AI_omit_ir1,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir1,What is the follow-up appointment scheduled for the patient?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir1,What should the patient do if they experience uncontrolled pain after discharge?,Contact the call center during working hours,Contact the call center during working hours,Contact the call center during working hours
+0,AI_omit_ir2,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir2,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_ir2,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir2,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir2,What was the primary diagnosis at the time of discharge for this patient?,"Invasive Breast Cancer, No Special Type (IBC NST) Grade II","Invasive Breast Cancer, No Special Type (IBC NST) Grade II","Invasive Breast Cancer, No Special Type (IBC NST) Grade II"
+0,AI_omit_ir2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Mastectomy,Mastectomy
+0,AI_omit_ir2,Which medication was the patient taking for hypertension upon discharge?,Bisoprolol,Bisoprolol,Bisoprolol
+0,AI_omit_ir2,When is the patient's follow-up appointment scheduled?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_omit_ir2,What should the patient do if they experience a fever higher than 38.0°C after discharge?,Visit the emergency room,Visit the emergency room,Visit the emergency room
+0,AI_omit_ir3,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir3,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir3,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_ir3,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir3,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir3,What was the primary diagnosis upon discharge for this patient?,"Invasive Breast Cancer, No Special Type (IBC NST)","Invasive Breast Cancer, No Special Type (IBC NST)","Invasive Breast Cancer, No Special Type (IBC NST)"
+0,AI_omit_ir3,Which surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir3,What is the patient's current medication regimen upon discharge?,No new outpatient medications prescribed,No new outpatient medications prescribed,No new outpatient medications prescribed
+0,AI_omit_ir3,When is the patient's follow-up appointment scheduled?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_omit_ir3,Which symptom should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir4,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir4,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir4,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_ir4,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir4,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir4,What was the primary diagnosis upon discharge for this patient?,"Invasive Breast Cancer, No Special Type (IBC NST) Grade II","Invasive Breast Cancer, No Special Type (IBC NST) Grade II","Invasive Breast Cancer, No Special Type (IBC NST) Grade II"
+0,AI_omit_ir4,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir4,What is the patient's current medication regimen upon discharge?,No medications listed,No medications listed,No medications listed
+0,AI_omit_ir4,When is the follow-up appointment scheduled for this patient?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_omit_ir4,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir5,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir5,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir5,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_ir5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir5,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir5,What was the primary diagnosis upon discharge for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir5,Which procedure was performed during the patient's hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir5,What is the patient's current medication regimen upon discharge?,No medications prescribed,Only pain management medications,No medications prescribed
+0,AI_omit_ir5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Radiation Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir5,What symptoms should the patient seek urgent care for after discharge?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r1,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r1,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r1,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_r1,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r1,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r1,What was the primary admission diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_inj_r1,Which surgical procedure was performed during the patient's hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_inj_r1,What was the patient's performance status upon discharge?,0 (Fully active),0 (Fully active),0 (Fully active)
+0,AI_inj_r1,What is the significance of the patient's HER-2/neu status?,Indicates the cancer is HER-2 negative,Indicates the cancer is HER-2 negative,Indicates the cancer is HER-2 negative
+0,AI_inj_r1,When is the patient's follow-up appointment scheduled?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_inj_r2,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r2,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_r2,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r2,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r2,What was the primary discharge diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_inj_r2,Which surgical procedure was performed during the patient's hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_inj_r2,What was the patient's medication regimen prior to surgery?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_inj_r2,What follow-up appointment was scheduled for the patient after discharge?,Surgical Oncology,Surgical Oncology,Surgical Oncology
+0,AI_inj_r2,What specific advice was given to the patient regarding postoperative activity?,Avoid heavy lifting and strenuous activities for at least four weeks,Avoid heavy lifting and strenuous activities for at least four weeks,Avoid heavy lifting and strenuous activities for at least four weeks
+0,AI_inj_r3,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r3,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r3,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_r3,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r3,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r3,What was the primary discharge diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_inj_r3,Which surgical procedure did the patient undergo during hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_inj_r3,What was the patient's medication regimen prior to surgery?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_inj_r3,What follow-up appointment was scheduled for the patient after discharge?,"Surgical Oncology on July 10, 2024","Surgical Oncology on July 10, 2024","Surgical Oncology on July 10, 2024"
+0,AI_inj_r3,What significant finding was noted in the pathology results?,Invasive breast carcinoma with estrogen receptor positivity,Invasive breast carcinoma with estrogen receptor positivity,Invasive breast carcinoma with estrogen receptor positivity
+0,AI_inj_r4,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r4,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r4,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_r4,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r4,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r4,What was the primary admission diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_inj_r4,Which procedure was performed during the patient's hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_inj_r4,What was the patient's condition upon discharge as indicated by the Glasgow Coma Scale?,15,15,15
+0,AI_inj_r4,What follow-up appointment was scheduled for the patient after discharge?,Surgical Oncology,Surgical Oncology,Surgical Oncology
+0,AI_inj_r4,What allergy was documented in the patient's medical history?,Penicillin,I don't know,Penicillin
+0,AI_inj_r5,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_r5,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_r5,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_r5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_r5,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_r5,What was the primary discharge diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_inj_r5,What type of surgery did the patient undergo during hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_inj_r5,Which medication was the patient taking prior to surgery?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_inj_r5,What was the patient's performance status upon discharge?,0 (Fully active),0 (Fully active),0 (Fully active)
+0,AI_inj_r5,When is the patient's follow-up appointment scheduled?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_inj_ir1,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir1,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir1,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_ir1,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir1,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir1,What was the primary diagnosis for this patient upon discharge?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_inj_ir1,What type of surgery did the patient undergo during hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_inj_ir1,Which medication was the patient taking prior to surgery?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_inj_ir1,What was the follow-up appointment scheduled for after discharge?,Surgical Oncology,Surgical Oncology,Surgical Oncology
+0,AI_inj_ir1,What should the patient seek urgent care for according to the discharge advice?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir2,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir2,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_ir2,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir2,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir2,What was the primary discharge diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_inj_ir2,What type of surgery did the patient undergo during her hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_inj_ir2,What were the results of the genetic testing performed on the patient?,Negative,Negative,Negative
+0,AI_inj_ir2,Which medication was the patient taking prior to her surgery?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_inj_ir2,When is the patient's follow-up appointment scheduled?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_inj_ir3,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir3,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir3,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_ir3,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir3,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir3,What was the primary admission diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_inj_ir3,What type of surgery did the patient undergo during her hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_inj_ir3,What was the patient's pain level upon discharge?,1,1,1
+0,AI_inj_ir3,What is the follow-up appointment scheduled for this patient?,Surgical Oncology,Surgical Oncology,Surgical Oncology
+0,AI_inj_ir3,What was the result of the genetic testing performed on the patient?,Negative,Negative,Negative
+0,AI_inj_ir4,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir4,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir4,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_ir4,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir4,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir4,What was the primary admission diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_inj_ir4,Which surgical procedure was performed during the patient's hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_inj_ir4,What was the patient's performance status upon discharge?,0 (Fully active),0 (Fully active),0 (Fully active)
+0,AI_inj_ir4,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology,Surgical Oncology,Surgical Oncology
+0,AI_inj_ir4,What was the result of the genetic testing performed on the patient?,Negative,Negative,Negative
+0,AI_inj_ir5,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_inj_ir5,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_inj_ir5,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_inj_ir5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_inj_ir5,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_inj_ir5,What was the primary discharge diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_inj_ir5,What type of surgery did the patient undergo during her hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_inj_ir5,What was the patient's pain level upon discharge?,1,1,1
+0,AI_inj_ir5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology,Surgical Oncology,Surgical Oncology
+0,AI_inj_ir5,Which medication was the patient taking prior to her surgery?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_omit_r1,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r1,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r1,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_r1,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r1,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r1,What was the primary diagnosis for this patient upon discharge?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_omit_r1,Which surgical procedure did the patient undergo during hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_omit_r1,What was the patient's medication regimen prior to surgery?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_omit_r1,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology,Surgical Oncology,Surgical Oncology
+0,AI_omit_r1,What was the patient's performance status upon discharge?,0 (Fully active),0 (Fully active),0 (Fully active)
+0,AI_omit_r2,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r2,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_r2,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r2,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r2,What was the primary diagnosis for this patient upon discharge?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_omit_r2,Which medication was the patient taking prior to surgery?,Bisoprolol,Bisoprolol,Bisoprolol
+0,AI_omit_r2,What type of surgical procedure did the patient undergo?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_omit_r2,What was the patient's performance status upon discharge?,0 (Fully active),0 (Fully active),0 (Fully active)
+0,AI_omit_r2,When is the patient's follow-up appointment scheduled?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_omit_r3,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r3,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r3,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_r3,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r3,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r3,What was the primary admission diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_omit_r3,Which medication was the patient taking prior to surgery?,Bisoprolol,Bisoprolol,Bisoprolol
+0,AI_omit_r3,What type of breast cancer was diagnosed in the left breast?,"Invasive breast carcinoma, no special type (IBC NST)","Invasive breast carcinoma, no special type (IBC NST)","Invasive breast carcinoma, no special type (IBC NST)"
+0,AI_omit_r3,What was the patient's performance status upon discharge?,0 (Fully active),0 (Fully active),0 (Fully active)
+0,AI_omit_r3,When is the follow-up appointment scheduled with Surgical Oncology?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_omit_r4,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r4,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r4,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_r4,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r4,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r4,What was the primary diagnosis for this patient upon discharge?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_omit_r4,What type of surgery did the patient undergo during hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_omit_r4,What was the patient's performance status upon discharge?,0 (Fully active),0 (Fully active),0 (Fully active)
+0,AI_omit_r4,Which receptor was found to be positive in the patient's left breast cancer pathology findings?,Both B and C,Both B and C,Both B and C
+0,AI_omit_r4,When is the patient's follow-up appointment scheduled?,"July 10, 2024","July 15, 2024","July 10, 2024"
+0,AI_omit_r5,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_r5,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_r5,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_r5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_r5,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_r5,What was the primary diagnosis for this patient upon discharge?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_omit_r5,What type of surgical procedure did the patient undergo during hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_omit_r5,Which medication was the patient taking prior to admission?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_omit_r5,What was the patient's performance status upon discharge?,0 (Fully active),0 (Fully active),0 (Fully active)
+0,AI_omit_r5,What should the patient seek urgent care for after discharge?,Shortness of breath,Shortness of breath,Routine follow-up
+0,AI_omit_ir1,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir1,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir1,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_ir1,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir1,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir1,What was the primary admission diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_omit_ir1,Which procedure was performed during the patient's hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_omit_ir1,What was the result of the genetic testing for this patient?,Negative,Negative,Negative
+0,AI_omit_ir1,What is the follow-up appointment scheduled for this patient?,"July 10, 2024","July 10, 2024","July 10, 2024"
+0,AI_omit_ir1,Which medication was the patient taking prior to discharge?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_omit_ir2,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir2,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir2,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_ir2,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir2,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir2,What was the primary discharge diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_omit_ir2,What type of surgery did the patient undergo during hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_omit_ir2,Which medication was the patient taking prior to admission?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_omit_ir2,What was the follow-up plan for the patient after discharge?,"Follow-up appointment with Surgical Oncology on July 10, 2024","Follow-up appointment with Surgical Oncology on July 10, 2024","Follow-up appointment with Surgical Oncology on July 10, 2024"
+0,AI_omit_ir2,What significant pathology finding was noted in the left breast biopsy?,"Invasive breast carcinoma, no special type (IBC NST) grade II","Invasive breast carcinoma, no special type (IBC NST) grade II","Invasive breast carcinoma, no special type (IBC NST) grade II"
+0,AI_omit_ir3,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir3,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir3,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_ir3,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir3,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir3,What was the primary admission diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_omit_ir3,What type of surgery did the patient undergo during hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_omit_ir3,Which medication was the patient taking prior to admission?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide
+0,AI_omit_ir3,What was the follow-up appointment scheduled for after discharge?,Surgical Oncology,Surgical Oncology,Surgical Oncology
+0,AI_omit_ir3,What was noted about the patient's pain level upon discharge?,Minimal pain (Pain Scale: 1),Minimal pain (Pain Scale: 1),Minimal pain (Pain Scale: 1)
+0,AI_omit_ir4,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir4,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir4,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_ir4,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir4,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir4,What was the primary admission diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_omit_ir4,What type of surgery did the patient undergo during hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_omit_ir4,What was the result of the genetic testing performed on the patient?,Negative,Negative,Negative
+0,AI_omit_ir4,What is the follow-up appointment scheduled for this patient?,"Surgical Oncology on July 10, 2024","Surgical Oncology on July 10, 2024","Radiology on July 15, 2024"
+0,AI_omit_ir4,What should the patient seek urgent care for after discharge?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir5,What was the primary diagnosis at the time of admission for this patient?,Invasive Breast Cancer,Invasive Breast Cancer,Invasive Breast Cancer
+0,AI_omit_ir5,What surgical procedure did the patient undergo during hospitalization?,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection,Left Wide Local Excision with Axillary Dissection
+0,AI_omit_ir5,What is the patient's current medication regimen upon discharge?,No medications prescribed,No medications prescribed,No medications prescribed
+0,AI_omit_ir5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology Clinic,Surgical Oncology Clinic,Surgical Oncology Clinic
+0,AI_omit_ir5,Which of the following symptoms should prompt the patient to seek urgent care?,Shortness of breath,Shortness of breath,Shortness of breath
+0,AI_omit_ir5,What was the primary admission diagnosis for this patient?,Left breast cancer,Left breast cancer,Left breast cancer
+0,AI_omit_ir5,What type of surgery did the patient undergo during her hospitalization?,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection,Left wide local excision with axillary dissection
+0,AI_omit_ir5,What was the estrogen receptor status of the left breast cancer?,90% positive,90% positive,90% positive
+0,AI_omit_ir5,What follow-up appointment is scheduled for the patient after discharge?,Surgical Oncology,Surgical Oncology,Surgical Oncology
+0,AI_omit_ir5,Which medication was the patient taking prior to her surgery?,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide,Bisoprolol and Hydrochlorothiazide

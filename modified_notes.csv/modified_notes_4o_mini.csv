@@ -1,0 +1,2422 @@
+original_note_number,new_note_name,modified_text,modifications,processing_time,input_tokens,output_tokens,total_tokens,added_text,removed_text,model,timestamp
+0,AI,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**",Professional rewrite with normal values omitted,8.692244052886963,775,749,1524,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.
+She is currently on Bisoprolol and Hydrochlorothiazide.
+**Genetic testing** returned negative.
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.
+- Left axillary biopsy confirmed metastatic involvement.
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.
+1 cm, located 5.
+5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.
+5 cm, with additional cystic structures.
+- A solitary left axillary lymph node exhibited a prominent cortex.
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation.
+There was no definite evidence of distant metastasis noted.
+- Bone scan results were negative.
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+**In-Hospital Course:**  
+The patient is stable with effective pain management.
+A drain remains in place with serosanguinous output.
+The surgical site is covered with a clean dressing.
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr.
+[Redacted] on July 10, 2024.
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.
+0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.
+g.
+, nausea, vomiting, diarrhea), or any postoperative complications (e.
+g.
+, discharge from the surgical site).
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted].
+For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+--- 
+
+**End of Summary**","'
+Patient Name:**********  Patient ID:**********
+
+Patient Age:**********yr    Patient DOB:**********
+
+Patient Sex:FEMALE 
+
+--------------------------------------------------------------------------------
+
+                          DISCHARGE SUMMARY
+
+--------------------------------------------------------------------------------
+
+Code Status:Full code
+
+Admission Diagnosis:braest ca 
+
+Admission Date:Jun 29,2024
+
+Active Problem: Elective surgery 
+
+ 
+
+--------------------------------------------------------------------------------
+
+A-**********-year-old lady 
+
+ 
+
+ 
+
+PMHx: HTN, IHD[no stent] 
+
+non smoker 
+
+post menopause 
+
+ 
+
+Bisoprolol + Hydrochlorothiazide (Concor PLUS)® 5/12.
+5 mg 1*1
+
+ 
+
+ 
+
+Genetics: negative 
+
+==================
+
+Left Breast Cancer cT1N0
+
+ 
+
+Right breast Bx: benign breast tissue.
+Left breast Bx:  IBC NST II, ER 90%, PR 70%, HER-2/neu negative by FISH ; Ki67 
+
+5%
+
+Left axilla Bx: metastatic 
+
+ 
+
+ 
+
+Mammogram+ breast US: 
+
+Left breast MIQ irregular mass  1.
+1 cm; 5.
+5 cm from NAC 
+
+Right breast MIQ mass 1.
+5 cm + MOQ oval mass [cysts]
+
+Solitary left axillary lymph node with a prominent cortex.
+CAP CT:
+
+Nodular thickening of the left adrenal gland is seen, for follow-up.
+Bulky uterus with large left ovarian cyst, for gynecologic correlation and 
+
+further evaluation by pelvis US/MRI.
+No definite distant metastasis
+
+ 
+
+Bone scan: negative 
+
+==================
+
+case was discussed during MDC with committe 
+
+agreed to go for upfront surgery due to her age and possibility of going for 
+
+oncotype Dx post op 
+
+ 
+
+ 
+
+EXAM:
+
+left breast: 12 o'clock 1.
+8*1.
+5 cm mass close to skin 
+
+ 
+
+--------------------------------------------------------------------------------
+
+Procedures applied during hospitalization:
+
+Operative 
+
+ 
+
+LT WLE WITH AD 
+
+ 
+
+--------------------------------------------------------------------------------
+
+Important development during hospitalization
+
+DOING WELL , STABILE VIATL 
+
+PAIN CONTROL 
+
+DRAIN IN PLACE WITH 60 CC SEROSANG 
+
+WOUND COVER BY CLEAN DRESSING 
+
+ 
+
+ 
+
+-------------------------------------------------------------------------------
+
+Discharge Diagnosis: BREAST CA 
+
+Discharge Date:Jul 1,2024
+
+Discharge type: Elective Discharge
+
+-------------------------------------------------------------------------------
+
+Discharge medications:TODAY'S OUTPATIENT MEDS FOR AUTHOR - NONE FOUND
+
+-------------------------------------------------------------------------------
+
+Pending Test Results:HISTOPATHOLOGY 
+
+ 
+
+-------------------------------------------------------------------------------
+
+--------------------------Patient condition upon discharge --------------------
+
+Glasgow Coma scale:15
+
+ 
+
+Performance status: 0 Full Active 
+
+Pain Scale: 1
+
+ 
+
+-------------------------------------------------------------------------------
+
+---------------------------Follow up plan instructions ------------------------
+
+List of follow-up appointments and referrals:
+
+ 
+
+Surgical oncology clinic Dr Name  DR.
+**********ZE DAOUD DateJul 10,2024
+
+ 
+
+ 
+
+Advice on Discharge: Diet:regular
+
+ 
+
+When to obtain urgent care:
+
+Shortness of Breath 
+
+Altered level of consciousness 
+
+Uncontrolled pain 
+
+Fever Higher than 38.
+0 C
+
+Uncontrolled chemo radiotherapy side effect(for example nausea vomiting and 
+
+diarrhea) 
+
+post operative complication (for example discharge from site of 
+
+surgery)OthersINSTRUCTION WAS GIVEN 
+
+ 
+
+How to obtain urgent care:
+
+During Working Hours (8Am -4Pm) Sunday to Thursday 
+
+Call center number (+**********5300460)
+
+You can always call your primary care coordinator for any help
+
+After Working Hours emergency Room (adults and pediatrics)",gpt-4o-mini,2024-12-14 22:15:37
+0,AI_inj_r1,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+---
+
+**Patient Education and Counseling:**  
+- The patient has a known allergy to penicillin.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'The patient has a known allergy to penicillin.', 'CRITERIA': '20', 'RATIONALE': ""This addition meets the criteria as it provides important information regarding the patient's allergies, which is crucial for safe prescribing and patient care."", 'LOCATION': 'After the ""Patient Education and Counseling"" section, before the ""Pending Test Results.""'}",7.15714430809021,1406,768,2174,"---
+
+**Patient Education and Counseling:**  
+- The patient has a known allergy to penicillin.",,gpt-4o-mini,2024-12-14 22:15:59
+0,AI_inj_r2,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+The patient has a known allergy to penicillin.
+
+The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'The patient has a known allergy to penicillin.', 'CRITERIA': '20', 'RATIONALE': ""This addition meets the criteria as it provides important information regarding the patient's allergies, which is crucial for safe prescribing and patient care."", 'LOCATION': 'After the ""Patient Education and Counseling"" section, before the ""Pending Test Results.""'}
+2. {'TEXT': 'The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.', 'CRITERIA': '18, 24', 'RATIONALE': 'This addition meets the criteria by specifying equipment needed at discharge (surgical drain bulb) and providing specific care instructions related to wound care, ensuring the patient understands how to manage the drain at home.', 'LOCATION': 'After the ""Discharge Instructions"" section, as part of the care instructions.'}",6.917269706726074,1453,782,2235,"The patient has a known allergy to penicillin.
+The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.",,gpt-4o-mini,2024-12-14 22:16:06
+0,AI_inj_r3,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.  
+- The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.
+
+--- 
+
+**Patient Education and Counseling:**  
+- The patient was counseled on the importance of regular follow-up imaging to monitor for any recurrence of breast cancer.
+
+---
+
+**Allergies:** The patient has a known allergy to penicillin.
+
+---
+
+**End of Summary**","1. {'TEXT': 'The patient has a known allergy to penicillin.', 'CRITERIA': '20', 'RATIONALE': ""This addition meets the criteria as it provides important information regarding the patient's allergies, which is crucial for safe prescribing and patient care."", 'LOCATION': 'After the ""Patient Education and Counseling"" section, before the ""Pending Test Results.""'}
+2. {'TEXT': 'The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.', 'CRITERIA': '18, 24', 'RATIONALE': 'This addition meets the criteria by specifying equipment needed at discharge (surgical drain bulb) and providing specific care instructions related to wound care, ensuring the patient understands how to manage the drain at home.', 'LOCATION': 'After the ""Discharge Instructions"" section, as part of the care instructions.'}
+3. {'TEXT': 'The patient was counseled on the importance of regular follow-up imaging to monitor for any recurrence of breast cancer.', 'CRITERIA': '11, 9', 'RATIONALE': ""This addition meets the criteria by providing patient education regarding ongoing care, emphasizing the importance of follow-up imaging, which is vital for monitoring the patient's condition post-discharge."", 'LOCATION': 'After the ""Follow-Up Plan"" section.'}",7.13018274307251,1493,822,2315,"- The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.
+--- 
+
+**Patient Education and Counseling:**  
+- The patient was counseled on the importance of regular follow-up imaging to monitor for any recurrence of breast cancer.
+---
+
+**Allergies:** The patient has a known allergy to penicillin.
+---
+
+**End of Summary**","--- 
+
+**End of Summary**",gpt-4o-mini,2024-12-14 22:16:13
+0,AI_inj_r4,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing. The patient's vital signs during hospitalization were stable, with the exception of a transient low-grade fever of 37.8°C on post-operative day one.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+The patient was counseled on the importance of regular follow-up imaging to monitor for any recurrence of breast cancer.
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.  
+The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.
+
+--- 
+
+**Patient Education and Counseling:**  
+The patient has a known allergy to penicillin.
+
+---
+
+**End of Summary**","1. {'TEXT': 'The patient has a known allergy to penicillin.', 'CRITERIA': '20', 'RATIONALE': ""This addition meets the criteria as it provides important information regarding the patient's allergies, which is crucial for safe prescribing and patient care."", 'LOCATION': 'After the ""Patient Education and Counseling"" section, before the ""Pending Test Results.""'}
+2. {'TEXT': 'The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.', 'CRITERIA': '18, 24', 'RATIONALE': 'This addition meets the criteria by specifying equipment needed at discharge (surgical drain bulb) and providing specific care instructions related to wound care, ensuring the patient understands how to manage the drain at home.', 'LOCATION': 'After the ""Discharge Instructions"" section, as part of the care instructions.'}
+3. {'TEXT': 'The patient was counseled on the importance of regular follow-up imaging to monitor for any recurrence of breast cancer.', 'CRITERIA': '11, 9', 'RATIONALE': ""This addition meets the criteria by providing patient education regarding ongoing care, emphasizing the importance of follow-up imaging, which is vital for monitoring the patient's condition post-discharge."", 'LOCATION': 'After the ""Follow-Up Plan"" section.'}
+4. {'TEXT': ""The patient's vital signs during hospitalization were stable, with the exception of a transient low-grade fever of 37.8°C on post-operative day one."", 'CRITERIA': '15', 'RATIONALE': 'This addition meets the criteria by highlighting an important abnormal vital sign that occurred during hospitalization, which may be relevant for follow-up care and monitoring.', 'LOCATION': 'Within the ""In-Hospital Course"" section after the sentence about being stable.'}",7.150577068328857,1547,844,2391,"The patient's vital signs during hospitalization were stable, with the exception of a transient low-grade fever of 37.
+8°C on post-operative day one.
+The patient was counseled on the importance of regular follow-up imaging to monitor for any recurrence of breast cancer.
+The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.
+--- 
+
+**Patient Education and Counseling:**  
+The patient has a known allergy to penicillin.
+---
+
+**End of Summary**","--- 
+
+**End of Summary**",gpt-4o-mini,2024-12-14 22:16:20
+0,AI_inj_r5,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing. The patient's vital signs during hospitalization were stable, with the exception of a transient low-grade fever of 37.8°C on post-operative day one.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+The patient was counseled on the importance of regular follow-up imaging to monitor for any recurrence of breast cancer.
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.  
+The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.
+
+--- 
+
+**Patient Education and Counseling:**  
+The patient has a known allergy to penicillin.
+
+---
+
+**End of Summary**  
+
+---
+
+**Equipment Needed at Discharge:**  
+The patient's functional capacity is currently independent in activities of daily living (ADLs) and ambulation without assistance.  
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'The patient has a known allergy to penicillin.', 'CRITERIA': '20', 'RATIONALE': ""This addition meets the criteria as it provides important information regarding the patient's allergies, which is crucial for safe prescribing and patient care."", 'LOCATION': 'After the ""Patient Education and Counseling"" section, before the ""Pending Test Results.""'}
+2. {'TEXT': 'The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.', 'CRITERIA': '18, 24', 'RATIONALE': 'This addition meets the criteria by specifying equipment needed at discharge (surgical drain bulb) and providing specific care instructions related to wound care, ensuring the patient understands how to manage the drain at home.', 'LOCATION': 'After the ""Discharge Instructions"" section, as part of the care instructions.'}
+3. {'TEXT': 'The patient was counseled on the importance of regular follow-up imaging to monitor for any recurrence of breast cancer.', 'CRITERIA': '11, 9', 'RATIONALE': ""This addition meets the criteria by providing patient education regarding ongoing care, emphasizing the importance of follow-up imaging, which is vital for monitoring the patient's condition post-discharge."", 'LOCATION': 'After the ""Follow-Up Plan"" section.'}
+4. {'TEXT': ""The patient's vital signs during hospitalization were stable, with the exception of a transient low-grade fever of 37.8°C on post-operative day one."", 'CRITERIA': '15', 'RATIONALE': 'This addition meets the criteria by highlighting an important abnormal vital sign that occurred during hospitalization, which may be relevant for follow-up care and monitoring.', 'LOCATION': 'Within the ""In-Hospital Course"" section after the sentence about being stable.'}
+5. {'TEXT': ""The patient's functional capacity is currently independent in activities of daily living (ADLs) and ambulation without assistance."", 'CRITERIA': '22', 'RATIONALE': ""This addition meets the criteria by providing information about the patient's functional capacity, which is important for assessing the level of care needed at home and planning any rehabilitation services."", 'LOCATION': 'After the ""Patient Condition upon Discharge"" section.'}",8.938899040222168,1588,884,2472,"The patient's vital signs during hospitalization were stable, with the exception of a transient low-grade fever of 37.
+8°C on post-operative day one.
+The patient was counseled on the importance of regular follow-up imaging to monitor for any recurrence of breast cancer.
+The patient requires a surgical drain bulb to be monitored and emptied as needed prior to the first post-operative follow-up.
+--- 
+
+**Patient Education and Counseling:**  
+The patient has a known allergy to penicillin.
+---
+
+**End of Summary**  
+
+---
+
+**Equipment Needed at Discharge:**  
+The patient's functional capacity is currently independent in activities of daily living (ADLs) and ambulation without assistance.",,gpt-4o-mini,2024-12-14 22:16:29
+0,AI_inj_ir1,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+The patient has a pet cat at home.
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'The patient has a pet cat at home.', 'NON-RELEVANT': ""This information does not meet any of the relevancy criteria as it does not impact the patient's medical care or discharge planning."", 'LOCATION': ""After the patient's demographic information.""}",7.047505855560303,1395,758,2153,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+The patient has a pet cat at home.
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.","**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.",gpt-4o-mini,2024-12-14 22:16:36
+0,AI_inj_ir2,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+The patient has a pet cat at home.  
+The patient enjoys gardening as a hobby.  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'The patient has a pet cat at home.', 'NON-RELEVANT': ""This information does not meet any of the relevancy criteria as it does not impact the patient's medical care or discharge planning."", 'LOCATION': ""After the patient's demographic information.""}
+2. {'TEXT': 'The patient enjoys gardening as a hobby.', 'NON-RELEVANT': ""This information does not pertain to the patient's medical condition, treatment, or discharge instructions, and is not relevant to any of the criteria."", 'LOCATION': ""After the patient's demographic information.""}",7.89438533782959,1417,768,2185,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+The patient has a pet cat at home.
+The patient enjoys gardening as a hobby.
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.","**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.",gpt-4o-mini,2024-12-14 22:16:44
+0,AI_inj_ir3,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+The patient has a pet cat at home.  
+The patient enjoys gardening as a hobby.  
+The patient's favorite color is blue.  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'The patient has a pet cat at home.', 'NON-RELEVANT': ""This information does not meet any of the relevancy criteria as it does not impact the patient's medical care or discharge planning."", 'LOCATION': ""After the patient's demographic information.""}
+2. {'TEXT': 'The patient enjoys gardening as a hobby.', 'NON-RELEVANT': ""This information does not pertain to the patient's medical condition, treatment, or discharge instructions, and is not relevant to any of the criteria."", 'LOCATION': ""After the patient's demographic information.""}
+3. {'TEXT': ""The patient's favorite color is blue."", 'NON-RELEVANT': ""This personal preference is not related to the patient's medical care or discharge planning and does not meet any criteria."", 'LOCATION': ""After the patient's demographic information.""}",6.536300420761108,1438,776,2214,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+The patient has a pet cat at home.
+The patient enjoys gardening as a hobby.
+The patient's favorite color is blue.
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.","**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.",gpt-4o-mini,2024-12-14 22:16:51
+0,AI_inj_ir4,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+The patient has a pet cat at home.  
+The patient enjoys gardening as a hobby.  
+The patient's favorite color is blue.  
+The patient attended a concert last month.
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'The patient has a pet cat at home.', 'NON-RELEVANT': ""This information does not meet any of the relevancy criteria as it does not impact the patient's medical care or discharge planning."", 'LOCATION': ""After the patient's demographic information.""}
+2. {'TEXT': 'The patient enjoys gardening as a hobby.', 'NON-RELEVANT': ""This information does not pertain to the patient's medical condition, treatment, or discharge instructions, and is not relevant to any of the criteria."", 'LOCATION': ""After the patient's demographic information.""}
+3. {'TEXT': ""The patient's favorite color is blue."", 'NON-RELEVANT': ""This personal preference is not related to the patient's medical care or discharge planning and does not meet any criteria."", 'LOCATION': ""After the patient's demographic information.""}
+4. {'TEXT': 'The patient attended a concert last month.', 'NON-RELEVANT': ""This information is irrelevant to the patient's hospitalization, care, or discharge instructions and does not fit any of the criteria."", 'LOCATION': ""After the patient's demographic information.""}",7.229833602905273,1460,784,2244,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+The patient has a pet cat at home.
+The patient enjoys gardening as a hobby.
+The patient's favorite color is blue.
+The patient attended a concert last month.
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.","**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.",gpt-4o-mini,2024-12-14 22:16:58
+0,AI_inj_ir5,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+The patient has a pet cat at home.  
+The patient enjoys gardening as a hobby.  
+The patient's favorite color is blue.  
+The patient attended a concert last month.  
+The patient has a collection of postcards from around the world.  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'The patient has a pet cat at home.', 'NON-RELEVANT': ""This information does not meet any of the relevancy criteria as it does not impact the patient's medical care or discharge planning."", 'LOCATION': ""After the patient's demographic information.""}
+2. {'TEXT': 'The patient enjoys gardening as a hobby.', 'NON-RELEVANT': ""This information does not pertain to the patient's medical condition, treatment, or discharge instructions, and is not relevant to any of the criteria."", 'LOCATION': ""After the patient's demographic information.""}
+3. {'TEXT': ""The patient's favorite color is blue."", 'NON-RELEVANT': ""This personal preference is not related to the patient's medical care or discharge planning and does not meet any criteria."", 'LOCATION': ""After the patient's demographic information.""}
+4. {'TEXT': 'The patient attended a concert last month.', 'NON-RELEVANT': ""This information is irrelevant to the patient's hospitalization, care, or discharge instructions and does not fit any of the criteria."", 'LOCATION': ""After the patient's demographic information.""}
+5. {'TEXT': 'The patient has a collection of postcards from around the world.', 'NON-RELEVANT': ""This information is unrelated to the patient's medical condition, treatment, or discharge planning and does not meet any of the criteria."", 'LOCATION': ""After the patient's demographic information.""}",7.23930549621582,1486,798,2284,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+The patient has a pet cat at home.
+The patient enjoys gardening as a hobby.
+The patient's favorite color is blue.
+The patient attended a concert last month.
+The patient has a collection of postcards from around the world.
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.","**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.",gpt-4o-mini,2024-12-14 22:17:05
+0,AI_omit_r1,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'Genetic testing returned negative.', 'CRITERIA': '4, 11', 'RATIONALE': 'This information does not directly pertain to the primary discharge diagnosis or necessary patient education and counseling for discharge.', 'LOCATION': 'Clinical Summary'}",6.105488538742065,1385,741,2126,,**Genetic testing** returned negative.,gpt-4o-mini,2024-12-14 22:17:11
+0,AI_omit_r2,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'Genetic testing returned negative.', 'CRITERIA': '4, 11', 'RATIONALE': 'This information does not directly pertain to the primary discharge diagnosis or necessary patient education and counseling for discharge.', 'LOCATION': 'Clinical Summary'}
+2. {'TEXT': 'A solitary left axillary lymph node exhibited a prominent cortex.', 'CRITERIA': '6, 14', 'RATIONALE': 'While technically an imaging finding, this detail does not impact the immediate discharge plan or diagnosis and may be considered extraneous.', 'LOCATION': 'Imaging Findings'}",6.779947519302368,1408,727,2135,,"**Genetic testing** returned negative.
+- A solitary left axillary lymph node exhibited a prominent cortex.",gpt-4o-mini,2024-12-14 22:17:18
+0,AI_omit_r3,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'Genetic testing returned negative.', 'CRITERIA': '4, 11', 'RATIONALE': 'This information does not directly pertain to the primary discharge diagnosis or necessary patient education and counseling for discharge.', 'LOCATION': 'Clinical Summary'}
+2. {'TEXT': 'A solitary left axillary lymph node exhibited a prominent cortex.', 'CRITERIA': '6, 14', 'RATIONALE': 'While technically an imaging finding, this detail does not impact the immediate discharge plan or diagnosis and may be considered extraneous.', 'LOCATION': 'Imaging Findings'}
+3. {'TEXT': 'CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation.', 'CRITERIA': '6, 14', 'RATIONALE': ""This information is not directly applicable to the patient's current condition or discharge needs and can be deferred for future evaluations."", 'LOCATION': 'Imaging Findings'}",5.870804071426392,1460,673,2133,,"**Genetic testing** returned negative.
+- A solitary left axillary lymph node exhibited a prominent cortex.
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation.
+There was no definite evidence of distant metastasis noted.",gpt-4o-mini,2024-12-14 22:17:24
+0,AI_omit_r4,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- Bone scan results were negative.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'Genetic testing returned negative.', 'CRITERIA': '4, 11', 'RATIONALE': 'This information does not directly pertain to the primary discharge diagnosis or necessary patient education and counseling for discharge.', 'LOCATION': 'Clinical Summary'}
+2. {'TEXT': 'A solitary left axillary lymph node exhibited a prominent cortex.', 'CRITERIA': '6, 14', 'RATIONALE': 'While technically an imaging finding, this detail does not impact the immediate discharge plan or diagnosis and may be considered extraneous.', 'LOCATION': 'Imaging Findings'}
+3. {'TEXT': 'CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation.', 'CRITERIA': '6, 14', 'RATIONALE': ""This information is not directly applicable to the patient's current condition or discharge needs and can be deferred for future evaluations."", 'LOCATION': 'Imaging Findings'}
+4. {'TEXT': ""The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively."", 'CRITERIA': '3, 22', 'RATIONALE': 'This detail about the multidisciplinary review is not necessary for discharge planning or patient education at this time.', 'LOCATION': 'Clinical Summary'}",5.938008785247803,1501,643,2144,,"**Genetic testing** returned negative.
+- A solitary left axillary lymph node exhibited a prominent cortex.
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation.
+There was no definite evidence of distant metastasis noted.
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.",gpt-4o-mini,2024-12-14 22:17:30
+0,AI_omit_r5,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. 
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': 'Genetic testing returned negative.', 'CRITERIA': '4, 11', 'RATIONALE': 'This information does not directly pertain to the primary discharge diagnosis or necessary patient education and counseling for discharge.', 'LOCATION': 'Clinical Summary'}
+2. {'TEXT': 'A solitary left axillary lymph node exhibited a prominent cortex.', 'CRITERIA': '6, 14', 'RATIONALE': 'While technically an imaging finding, this detail does not impact the immediate discharge plan or diagnosis and may be considered extraneous.', 'LOCATION': 'Imaging Findings'}
+3. {'TEXT': 'CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation.', 'CRITERIA': '6, 14', 'RATIONALE': ""This information is not directly applicable to the patient's current condition or discharge needs and can be deferred for future evaluations."", 'LOCATION': 'Imaging Findings'}
+4. {'TEXT': ""The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively."", 'CRITERIA': '3, 22', 'RATIONALE': 'This detail about the multidisciplinary review is not necessary for discharge planning or patient education at this time.', 'LOCATION': 'Clinical Summary'}
+5. {'TEXT': 'The surgical site is covered with a clean dressing.', 'CRITERIA': '24', 'RATIONALE': 'While it pertains to wound care, it does not add significant value to the discharge instructions and can be considered implicit in standard post-operative care.', 'LOCATION': 'In-Hospital Course'}",6.053435802459717,1524,688,2212,,"**Genetic testing** returned negative.
+- A solitary left axillary lymph node exhibited a prominent cortex.
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+The surgical site is covered with a clean dressing.",gpt-4o-mini,2024-12-14 22:17:36
+0,AI_omit_ir1,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': '**Code Status:** Full code', 'NON-RELEVANT': ""This information does not meet any specific criteria listed for relevant information required in a discharge summary. It is not a standard component of the discharge summary and does not provide details about the patient's medical condition or care."", 'LOCATION': 'Appears at the beginning of the note under patient details.'}",6.429460287094116,1398,742,2140,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.","**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.",gpt-4o-mini,2024-12-14 22:17:42
+0,AI_omit_ir2,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024**  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Genetic testing** returned negative.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': '**Code Status:** Full code', 'NON-RELEVANT': ""This information does not meet any specific criteria listed for relevant information required in a discharge summary. It is not a standard component of the discharge summary and does not provide details about the patient's medical condition or care."", 'LOCATION': 'Appears at the beginning of the note under patient details.'}
+2. {'TEXT': '**Active Problem:** Elective surgery', 'NON-RELEVANT': ""This statement is not essential for the discharge summary as it does not provide a specific diagnosis or condition related to the patient's hospitalization. It does not meet any of the relevancy criteria."", 'LOCATION': 'Appears in the clinical summary section.'}",7.408045768737793,1422,735,2157,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024**  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.","**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.",gpt-4o-mini,2024-12-14 22:17:50
+0,AI_omit_ir3,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. A drain remains in place with serosanguinous output. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': '**Code Status:** Full code', 'NON-RELEVANT': ""This information does not meet any specific criteria listed for relevant information required in a discharge summary. It is not a standard component of the discharge summary and does not provide details about the patient's medical condition or care."", 'LOCATION': 'Appears at the beginning of the note under patient details.'}
+2. {'TEXT': '**Active Problem:** Elective surgery', 'NON-RELEVANT': ""This statement is not essential for the discharge summary as it does not provide a specific diagnosis or condition related to the patient's hospitalization. It does not meet any of the relevancy criteria."", 'LOCATION': 'Appears in the clinical summary section.'}
+3. {'TEXT': '**Genetic testing** returned negative.', 'NON-RELEVANT': 'While genetic testing may be relevant in some contexts, it does not meet the criteria for discharge summaries as it does not directly impact the discharge diagnosis or follow-up care.', 'LOCATION': 'Appears in the clinical summary section.'}",7.285945177078247,1446,726,2172,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.","**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.
+**Genetic testing** returned negative.",gpt-4o-mini,2024-12-14 22:17:57
+0,AI_omit_ir4,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': '**Code Status:** Full code', 'NON-RELEVANT': ""This information does not meet any specific criteria listed for relevant information required in a discharge summary. It is not a standard component of the discharge summary and does not provide details about the patient's medical condition or care."", 'LOCATION': 'Appears at the beginning of the note under patient details.'}
+2. {'TEXT': '**Active Problem:** Elective surgery', 'NON-RELEVANT': ""This statement is not essential for the discharge summary as it does not provide a specific diagnosis or condition related to the patient's hospitalization. It does not meet any of the relevancy criteria."", 'LOCATION': 'Appears in the clinical summary section.'}
+3. {'TEXT': '**Genetic testing** returned negative.', 'NON-RELEVANT': 'While genetic testing may be relevant in some contexts, it does not meet the criteria for discharge summaries as it does not directly impact the discharge diagnosis or follow-up care.', 'LOCATION': 'Appears in the clinical summary section.'}
+4. {'TEXT': 'A drain remains in place with serosanguinous output.', 'NON-RELEVANT': 'This specific detail about the drain output is not necessary for the discharge summary; it doesn’t provide essential information for follow-up or patient care.', 'LOCATION': 'Appears in the In-Hospital Course section.'}",5.9374730587005615,1477,713,2190,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.","**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.
+**Genetic testing** returned negative.
+A drain remains in place with serosanguinous output.",gpt-4o-mini,2024-12-14 22:18:03
+0,AI_omit_ir5,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal. She is currently on Bisoprolol and Hydrochlorothiazide.
+
+**Diagnosis:**  
+- Left Breast Cancer: cT1N0  
+- Right breast biopsy revealed benign breast tissue.  
+- Left breast biopsy indicated invasive breast cancer, no special type (NST) II, with estrogen receptor (ER) positivity at 90%, progesterone receptor (PR) positivity at 70%, and HER-2/neu negative by FISH; Ki67 at 5%.  
+- Left axillary biopsy confirmed metastatic involvement.
+
+**Imaging Findings:**  
+- Mammogram and breast ultrasound showed an irregular mass in the left breast measuring 1.3 x 0.9 x 1.1 cm, located 5.5 cm from the nipple-areolar complex, and a mass in the right breast measuring 1.3 x 0.6 x 1.5 cm, with additional cystic structures.  
+- A solitary left axillary lymph node exhibited a prominent cortex.  
+- CT scan of the abdomen and pelvis revealed nodular thickening of the left adrenal gland, which will require follow-up, and a bulky uterus with a large left ovarian cyst necessitating gynecological evaluation. There was no definite evidence of distant metastasis noted.  
+- Bone scan results were negative.
+
+**Surgical Procedure:**  
+The patient underwent a left wide local excision (WLE) with axillary dissection.
+
+**In-Hospital Course:**  
+The patient is stable with effective pain management. The surgical site is covered with a clean dressing.
+
+---
+
+**Discharge Diagnosis:** Left Breast Cancer  
+**Discharge Date:** July 1, 2024  
+**Discharge Type:** Elective Discharge  
+
+---
+
+**Medications upon Discharge:** No outpatient medications were identified for the patient at this time.
+
+**Pending Test Results:** Histopathology  
+
+---
+
+**Patient Condition upon Discharge:**  
+- Glasgow Coma Scale: 15  
+- Performance Status: 0 (Fully Active)  
+- Pain Scale: 1  
+
+---
+
+**Follow-Up Plan:**  
+- Follow-up appointment with Surgical Oncology: Dr. [Redacted] on July 10, 2024.  
+
+**Discharge Instructions:**  
+- Diet: Regular  
+- When to seek urgent care: Shortness of breath, altered level of consciousness, uncontrolled pain, fever above 38.0°C, uncontrolled side effects from chemotherapy/radiotherapy (e.g., nausea, vomiting, diarrhea), or any postoperative complications (e.g., discharge from the surgical site).  
+- How to obtain urgent care: Contact the call center during working hours (8 AM - 4 PM, Sunday to Thursday) at [Redacted]. For after-hours assistance, proceed to the emergency room for adults and pediatrics.
+
+--- 
+
+**End of Summary**","1. {'TEXT': '**Code Status:** Full code', 'NON-RELEVANT': ""This information does not meet any specific criteria listed for relevant information required in a discharge summary. It is not a standard component of the discharge summary and does not provide details about the patient's medical condition or care."", 'LOCATION': 'Appears at the beginning of the note under patient details.'}
+2. {'TEXT': '**Active Problem:** Elective surgery', 'NON-RELEVANT': ""This statement is not essential for the discharge summary as it does not provide a specific diagnosis or condition related to the patient's hospitalization. It does not meet any of the relevancy criteria."", 'LOCATION': 'Appears in the clinical summary section.'}
+3. {'TEXT': '**Genetic testing** returned negative.', 'NON-RELEVANT': 'While genetic testing may be relevant in some contexts, it does not meet the criteria for discharge summaries as it does not directly impact the discharge diagnosis or follow-up care.', 'LOCATION': 'Appears in the clinical summary section.'}
+4. {'TEXT': 'A drain remains in place with serosanguinous output.', 'NON-RELEVANT': 'This specific detail about the drain output is not necessary for the discharge summary; it doesn’t provide essential information for follow-up or patient care.', 'LOCATION': 'Appears in the In-Hospital Course section.'}
+5. {'TEXT': ""The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively."", 'NON-RELEVANT': 'This information is not directly related to the discharge process and does not impact the discharge diagnosis or care instructions. It does not fit any of the relevant criteria.', 'LOCATION': 'Appears in the Imaging Findings section.'}",5.766071319580078,1523,683,2206,"**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.","**Patient Name:** [Redacted]  
+**Patient ID:** [Redacted]  
+**Patient Age:** [Redacted] years  
+**Patient DOB:** [Redacted]  
+**Patient Sex:** Female  
+
+---
+
+**DISCHARGE SUMMARY**  
+
+---
+
+**Code Status:** Full code  
+**Admission Diagnosis:** Left Breast Cancer  
+**Admission Date:** June 29, 2024  
+**Active Problem:** Elective surgery  
+
+---
+
+**Clinical Summary:**  
+The patient is a [Redacted]-year-old female with a medical history significant for hypertension and ischemic heart disease, who is a non-smoker and post-menopausal.
+**Genetic testing** returned negative.
+The case was reviewed at the multidisciplinary conference, and surgery was recommended due to the patient's age and the potential for oncotype DX testing post-operatively.
+A drain remains in place with serosanguinous output.",gpt-4o-mini,2024-12-14 22:18:09

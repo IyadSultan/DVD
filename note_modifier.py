@@ -1,4 +1,4 @@
-import os
+import os 
 import csv
 import argparse
 import pandas as pd
@@ -172,12 +172,279 @@ class NoteProcessor:
             'added_sentences': added_sentences,
             'removed_sentences': removed_sentences
         }
+    
+    def create_criteria_based_prompt(self, base_prompt: str, include_criteria: bool = True) -> str:
+        """Create a prompt that explicitly references relevancy criteria."""
+        criteria = self.get_relevancy_criteria()
+        
+        criteria_text = "\nRelevant information is defined as information that meets these criteria:\n"
+        for i, criterion in enumerate(criteria, 1):
+            criteria_text += f"{i}. {criterion}\n"
+        
+        if include_criteria:
+            return base_prompt + criteria_text
+        else:
+            return base_prompt + "\nNon-relevant information is any information that does NOT meet the above criteria.\n"
+
+    def get_and_display_modifications(self, note: str) -> Dict[str, List[str]]:
+        """Get all proposed modifications (relevant & irrelevant additions/removals)."""
+        print("\n=== PROPOSED MODIFICATIONS ===")
+        
+        # Get criteria for reference
+        criteria = self.get_relevancy_criteria()
+        criteria_text = "\nRelevancy Criteria:\n" + "\n".join(f"{i+1}. {c}" for i, c in enumerate(criteria))
+        
+        prompts = {
+            'inj_r': f"""Review the relevancy criteria below and identify 5 pieces of relevant information that could be added to this note.
+
+            {criteria_text}
+
+            For each addition:
+            1. The content MUST meet at least one of the relevancy criteria above
+            2. Explicitly state which criteria numbers it meets
+            3. Explain how it enhances the clinical value of the note
+
+            Format each suggestion EXACTLY as:
+            ADDITION:
+            Text: [exact sentence to add]
+            Criteria: [list specific criteria numbers]
+            Rationale: [explain why it meets criteria]
+            Location: [where to add]
+            """,
+            
+            'inj_ir': f"""Review the relevancy criteria below and identify pieces of non-relevant information that could be added.
+            
+            {criteria_text}
+
+            IMPORTANT: Only suggest truly non-clinical, administrative, or personal information that does NOT meet ANY of the criteria above.
+            Examples of truly irrelevant information:
+            - Patient's hobbies or recreational activities
+            - Personal preferences unrelated to care
+            - Non-medical biographical details
+            - Formatting or stylistic elements
+            
+            You do NOT need to find exactly 5 suggestions. Only provide suggestions that are truly irrelevant.
+
+            Format each suggestion EXACTLY as:
+            ADDITION:
+            Text: [exact sentence to add]
+            Verification: [explain why this meets NO criteria]
+            Location: [where to add]
+            """,
+            
+            'omit_r': f"""Review the relevancy criteria below and identify UP TO 5 pieces of relevant information that could be safely removed from this note without compromising essential care.
+
+            {criteria_text}
+
+            Look for:
+            1. Secondary or supplementary clinical details
+            2. Information that, while relevant, is not critical for immediate care
+            3. Details that could be moved to a separate note
+            4. Redundant information that appears elsewhere
+            5. Optional clinical details that don't affect core treatment
+
+            For each suggestion:
+            1. The content MUST currently exist in the note (copy exact text)
+            2. Must meet at least one relevancy criterion
+            3. Removal should not compromise core care understanding
+
+            Format each suggestion EXACTLY as:
+            REMOVAL:
+            Text: [exact existing text to remove]
+            Criteria: [list relevant criteria numbers]
+            Impact: [explain clinical impact of removal]
+            Location: [exact location in note]
+            """,
+            
+            'omit_ir': f"""Review the relevancy criteria below and identify pieces of truly non-relevant information that could be removed.
+
+            {criteria_text}
+
+            IMPORTANT: Only suggest removing content that meets ALL these conditions:
+            1. Does NOT meet ANY of the relevancy criteria
+            2. Is purely administrative, personal, or formatting-related
+            3. Removal would NOT impact clinical understanding
+            4. Must be complete, existing text from the note
+
+            You do NOT need to find exactly 5 items. Only suggest truly irrelevant content.
+
+            Format each suggestion EXACTLY as:
+            REMOVAL:
+            Text: [exact text to remove]
+            Verification: [explain why this meets NO criteria]
+            Location: [exact location in note]
+            """
+        }
+        
+        modifications = {}
+        
+        for mod_type, prompt in prompts.items():
+            print(f"\nGetting suggestions for {mod_type}...")
+            response = self.llm.invoke([
+                SystemMessage(content=self.relevancy_prompt),
+                HumanMessage(content=f"{prompt}\n\nThe note is:\n{note}")
+            ])
+            
+            # Parse structured response
+            suggestions = []
+            current_suggestion = {}
+            
+            for line in response.content.strip().split('\n'):
+                line = line.strip()
+                if not line:
+                    continue
+                
+                if line.startswith('ADDITION:') or line.startswith('REMOVAL:'):
+                    if current_suggestion and 'Text' in current_suggestion:
+                        suggestions.append(current_suggestion)
+                    current_suggestion = {}
+                    continue
+                
+                if ':' in line:
+                    key, value = [x.strip() for x in line.split(':', 1)]
+                    if key.lower() in ['text', 'criteria', 'rationale', 'impact', 'location', 'verification']:
+                        current_suggestion[key] = value
+            
+            # Add last suggestion if it has 'Text'
+            if current_suggestion and 'Text' in current_suggestion:
+                suggestions.append(current_suggestion)
+            
+            # For *all* categories, limit to 5 suggestions so we don't get more than 5 variations each.
+            # This ensures we won't produce AI_omit_ir6..AI_omit_ir10
+            modifications[mod_type] = suggestions[:5]
+
+        # Display modifications
+        print("\n🔵 RELEVANT INJECTIONS TO ADD (inj_r):")
+        if modifications['inj_r']:
+            for i, mod in enumerate(modifications['inj_r'], 1):
+                print(f"\n{i}. {mod['Text']}")
+                print(f"   Criteria: {mod.get('Criteria', 'Not specified')}")
+                print(f"   Rationale: {mod.get('Rationale', 'Not provided')}")
+                print(f"   Location: {mod.get('Location', 'Not specified')}")
+        else:
+            print("No relevant injections found.")
+        
+        print("\n🟡 IRRELEVANT INJECTIONS TO ADD (inj_ir):")
+        if modifications['inj_ir']:
+            for i, mod in enumerate(modifications['inj_ir'], 1):
+                print(f"\n{i}. {mod['Text']}")
+                print(f"   Verification: {mod.get('Verification', 'Not explained')}")
+                print(f"   Location: {mod.get('Location', 'Not specified')}")
+        else:
+            print("No truly irrelevant injections identified.")
+        
+        print("\n🔴 RELEVANT CONTENT TO REMOVE (omit_r):")
+        if modifications['omit_r']:
+            for i, mod in enumerate(modifications['omit_r'], 1):
+                print(f"\n{i}. {mod['Text']}")
+                print(f"   Criteria: {mod.get('Criteria', 'Not specified')}")
+                print(f"   Impact: {mod.get('Impact', 'Not provided')}")
+                print(f"   Location: {mod.get('Location', 'Not specified')}")
+        else:
+            print("No relevant content to remove.")
+        
+        print("\n🟠 IRRELEVANT CONTENT TO REMOVE (omit_ir):")
+        if modifications['omit_ir']:
+            for i, mod in enumerate(modifications['omit_ir'], 1):
+                print(f"\n{i}. {mod['Text']}")
+                print(f"   Verification: {mod.get('Verification', 'Not explained')}")
+                print(f"   Location: {mod.get('Location', 'Not specified')}")
+        else:
+            print("No truly irrelevant content to remove identified.")
+        
+        return modifications
+        
+    def apply_modification(self, note: str, mod_type: str, num_mods: int, modifications: List[Dict]) -> Dict:
+        """Apply specific modifications to the note."""
+        try:
+            criteria = self.get_relevancy_criteria()
+            criteria_text = "\nRelevancy Criteria:\n" + "\n".join(f"{i+1}. {c}" for i, c in enumerate(criteria))
+            
+            # Prepare modifications text based on type
+            if mod_type in ['inj_r', 'inj_ir']:
+                mod_desc = [
+                    f"Add this text: {mod['Text']}\nLocation: {mod.get('Location', 'At appropriate section')}" 
+                    for mod in modifications[:num_mods]
+                ]
+            else:  # omit_r, omit_ir
+                mod_desc = [
+                    f"Remove this text: {mod['Text']}\nLocation: {mod.get('Location', 'Where found in note')}" 
+                    for mod in modifications[:num_mods]
+                ]
+            
+            if mod_type == 'inj_r':
+                prompt = f"""Apply these {num_mods} relevant information additions to the note:
+
+{criteria_text}
+
+Modifications to apply:
+{chr(10).join(f"{i+1}. {desc}" for i, desc in enumerate(mod_desc))}
+
+Requirements:
+1. Add EXACTLY these {num_mods} pieces of content
+2. Place each at the specified location
+3. Make no other changes
+4. Ensure each addition meets relevancy criteria
+5. Return the complete modified note
+"""
+            elif mod_type == 'inj_ir':
+                prompt = f"""Apply these {num_mods} non-relevant information additions to the note:
+
+{criteria_text}
+
+Modifications to apply:
+{chr(10).join(f"{i+1}. {desc}" for i, desc in enumerate(mod_desc))}
+
+Requirements:
+1. Add EXACTLY these {num_mods} pieces of content
+2. Place each at the specified location
+3. Make no other changes
+4. Verify none meet relevancy criteria
+5. Return the complete modified note
+"""
+            elif mod_type == 'omit_r':
+                prompt = f"""Apply these {num_mods} relevant information removals to the note:
+
+{criteria_text}
+
+Modifications to apply:
+{chr(10).join(f"{i+1}. {desc}" for i, desc in enumerate(mod_desc))}
+
+Requirements:
+1. Remove EXACTLY these {num_mods} pieces of content
+2. Remove from specified locations
+3. Make no other changes
+4. Return the complete modified note
+"""
+            else:  # omit_ir
+                prompt = f"""Apply these {num_mods} non-relevant information removals to the note:
+
+{criteria_text}
+
+Modifications to apply:
+{chr(10).join(f"{i+1}. {desc}" for i, desc in enumerate(mod_desc))}
+
+Requirements:
+1. Remove EXACTLY these {num_mods} pieces of content
+2. Remove from specified locations
+3. Make no other changes
+4. Verify none meet relevancy criteria
+5. Return the complete modified note
+"""
+            
+            return self.modify_note(note, prompt, note)
+            
+        except Exception as e:
+            print(f"Error applying modifications: {str(e)}")
+            traceback.print_exc()
+            return None
 
     def generate_variations(self, note: str, note_number: int) -> List[Dict]:
-        """Generate all variations of a note including the initial AI rewrite."""
+        """Generate all variations of a note in a sequential workflow (total 21 new rows)."""
         modifications = []
         
-        # Create initial AI rewrite
+        # Step 1: Create initial AI rewrite
+        print("\n1️⃣ Creating initial AI rewrite...")
         ai_result = self.create_ai_rewrite(note)
         ai_note = ai_result['modified_text']
         
@@ -195,39 +462,72 @@ class NoteProcessor:
             'model': self.model_name,
             'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         })
-
-        # Define variation types and their prompts
-        variation_types = {
-            'omit_r': 'Remove {} key pieces of relevant information from the note.',
-            'omit_ir': 'Remove {} non-relevant details from the note.',
-            'inj_r': 'Add {} additional synthetic relevant details to the note.',
-            'inj_ir': 'Add {} synthetic non-relevant details to the note.'
-        }
-
-        # Generate each variation
-        for i in range(1, 6):  # Generate 5 variations of each type
-            for var_type, prompt_template in variation_types.items():
-                prompt = prompt_template.format(i)
-                result = self.modify_note(ai_note, prompt, ai_note)
+        
+        # Step 2: Get and display all proposed modifications
+        print("\n2️⃣ Getting all proposed modifications...")
+        all_modifications = self.get_and_display_modifications(ai_note)
+        
+        # Step 3: Apply modifications incrementally (up to 5 each)
+        categories = [
+            ('inj_r', '3️⃣ Applying relevant injections...'),
+            ('inj_ir', '4️⃣ Applying irrelevant injections...'),
+            ('omit_r', '5️⃣ Applying relevant omissions...'),
+            ('omit_ir', '6️⃣ Applying irrelevant omissions...')
+        ]
+        
+        for mod_type, step_message in categories:
+            print(f"\n{step_message}")
+            suggestions = all_modifications.get(mod_type, [])
+            
+            # If no suggestions for this category, skip
+            if not suggestions:
+                print(f"No modifications found for {mod_type}")
+                continue
+            
+            # For each type, we only do up to the total # of suggestions found (max 5).
+            # This prevents creation of e.g. AI_omit_ir6..AI_omit_ir10
+            max_suggestions = len(suggestions)
+            for i in range(1, max_suggestions + 1):
+                print(f"\nApplying {i} {mod_type} modifications:")
+                current_suggestions = suggestions[:i]
+                for suggestion in current_suggestions:
+                    print(f"  • {suggestion['Text']}")
+                
+                result = self.apply_modification(ai_note, mod_type, i, current_suggestions)
                 
                 if result:
-                    modifications.append({
+                    mod_entry = {
                         'original_note_number': note_number,
-                        'new_note_name': f'AI_{var_type}{i}',
+                        'new_note_name': f'AI_{mod_type}{i}',
                         'modified_text': result['modified_text'],
-                        'modifications': result['modification_prompt'],
+                        'modifications': '\n'.join(f"{j+1}. {s['Text']}" for j, s in enumerate(current_suggestions)),
                         'processing_time': result['processing_time'],
                         'input_tokens': result['input_tokens'],
                         'output_tokens': result['output_tokens'],
                         'total_tokens': result['total_tokens'],
-                        'added_text': '\n'.join(result['added_sentences']),
-                        'removed_text': '\n'.join(result['removed_sentences']),
                         'model': self.model_name,
-                        'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-                    })
-
+                        'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+                        'added_text': '\n'.join(result['added_sentences']),
+                        'removed_text': '\n'.join(result['removed_sentences'])
+                    }
+                    
+                    modifications.append(mod_entry)
+                    print("✅ Modifications applied successfully")
+                    
+                    if result['added_sentences']:
+                        print("\nVerified additions:")
+                        for sent in result['added_sentences']:
+                            print(f"  + {sent}")
+                    if result['removed_sentences']:
+                        print("\nVerified removals:")
+                        for sent in result['removed_sentences']:
+                            print(f"  - {sent}")
+                    
+                    print("\n" + "="*50)
+                else:
+                    print(f"❌ Failed to apply modifications")
+        
         return modifications
-
 
 class NoteModificationPipeline:
     def __init__(self, input_path: str, output_path: str, model_name: str = "gpt-4"):
@@ -249,10 +549,10 @@ class NoteModificationPipeline:
             
             # If note_text column doesn't exist, assume it's the second column
             if 'note_text' not in df.columns:
-                # Rename the second column to note_text
                 column_names = df.columns.tolist()
-                column_names[1] = 'note_text'
-                df.columns = column_names
+                if len(column_names) > 1:
+                    column_names[1] = 'note_text'
+                    df.columns = column_names
                 
             return df
         except Exception as e:
@@ -299,27 +599,38 @@ class NoteModificationPipeline:
             # Read existing file
             df_existing = pd.read_csv(output_csv)
             
-            # Check for duplicates based on original_note_number and new_note_name
-            existing_pairs = set(zip(df_existing['original_note_number'], 
-                                df_existing['new_note_name']))
-            new_pairs = set(zip(df_new['original_note_number'], 
-                            df_new['new_note_name']))
+            # Ensure all needed columns exist in df_existing
+            for col in df_new.columns:
+                if col not in df_existing.columns:
+                    df_existing[col] = None
+            
+            # Check for duplicates based on triple (original_note_number, new_note_name, model)
+            existing_triples = set(zip(df_existing['original_note_number'], 
+                                       df_existing['new_note_name'],
+                                       df_existing['model']))
+            new_triples = set(zip(df_new['original_note_number'], 
+                                  df_new['new_note_name'],
+                                  df_new['model']))
             
             # Filter out any duplicates
-            duplicates = new_pairs.intersection(existing_pairs)
+            duplicates = new_triples.intersection(existing_triples)
             if duplicates:
-                print(f"Found {len(duplicates)} duplicate entries - these will be skipped")
+                print(f"Found {len(duplicates)} duplicate entries (same note_number, name, and model) - these will be skipped.")
                 
-                # Keep only non-duplicate entries
-                mask = ~df_new.apply(lambda x: (x['original_note_number'], x['new_note_name']) in duplicates, axis=1)
+                mask = ~df_new.apply(
+                    lambda x: (x['original_note_number'], x['new_note_name'], x['model']) in duplicates, 
+                    axis=1
+                )
                 df_new = df_new[mask]
             
             # Append new modifications to existing file
             if not df_new.empty:
+                # Align columns in the same order
+                df_new = df_new[df_existing.columns]
                 df_new.to_csv(output_csv, mode='a', header=False, index=False)
                 print(f"Appended {len(df_new)} new modifications to {output_csv}")
             else:
-                print("No new modifications to append")
+                print("No new modifications to append.")
         else:
             # Create new file if it doesn't exist
             df_new.to_csv(output_csv, index=False)
@@ -330,7 +641,7 @@ def main():
     parser.add_argument('--input', type=str, required=True,
                       help='Path to input CSV file containing notes')
     parser.add_argument('--output', type=str, required=True,
-                      help='Path to output directory for modified notes')
+                      help='Path to output directory for modified notes (or a CSV file if you prefer)')
     parser.add_argument('--model', type=str, default='gpt-4',
                       help='Name of the OpenAI model to use')
     parser.add_argument('--start', type=int, default=0,
@@ -357,6 +668,7 @@ def main():
 
 if __name__ == "__main__":
     exit(main())
+
 
 
 # example command: python note_modifier.py --input samples/discharge_samples_200.csv --output samples/discharge_samples_200_modified --model gpt-4o-mini --start 0 --end 10

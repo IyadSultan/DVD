@@ -1,15 +1,14 @@
-ds<- read.csv("results_note2.csv")
+ds<- read.csv("results_dvd_evaluator.csv")
 print(dim(ds))
-# [1] "folder_name"     "note_name"       "question"        "best_answer"    
-# [5] "correct_answer"  "ai_answer"       "note_answer"     "ai_word_count"  
-# [9] "note_word_count"
+print(colnames(ds))
+# [1] "original_note_number" "new_note_name"        "question"
+# [4] "correct_answer"       "ai_answer"            "note_answer"
 library(dplyr)
 ds %>%
-    group_by(folder_name) %>%
-    group_by(note_name) %>%
+    group_by(original_note_number) %>%
+    group_by(new_note_name) %>%
     summarise(
-        ai_correct = sum(best_answer == ai_answer),
-        note_correct = sum(best_answer == note_answer),
-        correct_answer=sum(best_answer == correct_answer)
+        ai_correct = sum(correct_answer == ai_answer),
+        note_correct = sum(correct_answer == note_answer),
     ) %>% View()
 
