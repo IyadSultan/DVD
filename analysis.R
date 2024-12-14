@@ -9,6 +9,7 @@ ds %>%
     group_by(note_name) %>%
     summarise(
         ai_correct = sum(best_answer == ai_answer),
-        note_correct = sum(best_answer == note_answer)
+        note_correct = sum(best_answer == note_answer),
+        correct_answer=sum(best_answer == correct_answer)
     ) %>% View()
 
