@@ -1,0 +1,60 @@
+**Medical Report - Discharge Summary**
+
+**Patient Information:**  
+- Date of Birth: November 23, 1996  
+- Age: 27-28 years  
+- Gender: Female  
+- National ID: 9232365666896  
+
+**Hospital Admission and Discharge Details:**  
+- Admission Date: January 24, 2024  
+- Discharge Date: February 10, 2024  
+
+**Reason for Hospitalization:**  
+The patient was admitted due to an infected abdominal wound and severe abdominal pain, with imaging revealing intraperitoneal collections and hepatic lesions.
+
+**Hospital Course Summary:**  
+During the hospital stay, the patient was managed with intravenous antibiotics to address persistent infections. Imaging studies including PET/CT were performed to evaluate hepatic lesions. Pain management was optimized with a fentanyl patch and a superior hypogastric plexus block was planned.
+
+**Discharge Diagnosis:**  
+1. Recurrent multidrug-resistant urinary tract infections  
+2. Chronic abdominal pain secondary to Neurofibromatosis Type 1 and postoperative complications  
+3. Hepatic lesions under investigation  
+
+**Procedures Performed:**  
+- Exploratory laparotomy with adhesiolysis and small bowel resection  
+- Aborted distal loop fluoroscopy  
+
+**Medications at Discharge:**  
+- Meropenem and Vancomycin (IV antibiotics)  
+- Oral Suprax  
+- Fentanyl patch for pain management  
+- Vitamin D supplementation  
+
+**Discharge Instructions:**  
+- Continue prescribed medications and maintain scheduled follow-ups  
+- Monitor wound for signs of infection and report any changes  
+
+**Follow-Up Care:**  
+- Referral to adult oncology and palliative care for ongoing management  
+- Scheduled follow-up imaging for hepatic lesions  
+- Multidisciplinary evaluation for potential surgical interventions  
+
+**Patient's Condition at Discharge:**  
+The patient is stable for discharge with managed pain and ongoing antibiotic therapy. She remains under close monitoring for hepatic lesions and potential malignancy.
+
+**Patient Education and Counseling:**  
+The patient and family were educated about signs of infection, medication adherence, and the importance of follow-up appointments.
+
+**Pending Results:**  
+- Further evaluation of hepatic lesions with scheduled PET/CT imaging  
+
+**Advance Directives and Legal Considerations:**  
+- Discussions regarding advance care planning and directives were initiated with the patient and family.
+
+**Healthcare Provider Information:**  
+- Discharged under the care of Dr. John Smith, Adult Oncology  
+- Coordinated by the Palliative Care Team
+
+**Additional Notes:**  
+- The patient has a scheduled neurolytic celiac plexus block for November 2024 to aid in chronic pain relief.

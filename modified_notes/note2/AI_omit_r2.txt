@@ -1,0 +1,54 @@
+Medical Report
+
+Patient Information: 
+- Date of Birth: November 23, 1996
+- Age: 27-28 years
+- Gender: Female
+
+Clinical Summary:
+The patient is a 27-year-old female with a complex medical history including Neurofibromatosis Type 1 (NF1) and a malignant peripheral nerve sheath tumor (MPNST) treated in 2018. She has experienced recurrent infections, progressive hydronephrosis, bowel obstructions, and significant chronic pain.
+
+Key Medical History:
+- Neurofibromatosis Type 1 (NF1) with a pelvic plexiform neurofibroma since 2003
+- Malignant transformation to MPNST, excised in July 2018
+- Postoperative external beam radiotherapy (EBRT) completed on December 16, 2018
+
+Surgeries and Interventions:
+- Hysterectomy, right nephrectomy, and urinary diversion with ureterostomy and ileal conduit
+- Exploratory laparotomy with adhesiolysis, small bowel resection, and end ileostomy on September 21, 2023
+- Multiple urostomy and mass excision revisions
+- Neurolytic celiac plexus block scheduled for November 2024 for chronic pain
+
+Renal and Urological Issues:
+- Single left kidney with progressive hydronephrosis
+- Recurrent multidrug-resistant urinary tract infections (UTIs) including ESBL and CRE
+- Chronic renal impairment with a history of resolving acute kidney injury (AKI)
+
+Gastrointestinal Issues:
+- Multiple bowel obstructions and history of fecal peritonitis
+- Recurrent abdominal collections identified via imaging
+
+Chronic Pain and Palliative Care:
+- Chronic visceral abdominal pain managed with opioids including fentanyl and methadone
+- Managed by pediatric and adult palliative care services with potential neurolytic pain management interventions
+
+Recent Admissions and Clinical Events:
+- November 29, 2023: Aborted distal loop fluoroscopy due to severe abdominal pain; imaging suggested bowel obstruction
+- January 24, 2024: ER admission for an infected abdominal wound and pain; imaging revealed intraperitoneal collections and hepatic lesions
+
+Osteopenia and Osteoporosis:
+- History confirmed by DEXA scans (2019-2021)
+- Non-compliance with hormone replacement therapy and vitamin D supplementation
+
+Infections and Wound Care:
+- Persistent infections with ESBL and CRE-positive Proteus mirabilis and E. coli
+- Recent intra-abdominal infection confirmed via imaging
+
+Current Management Plans:
+- Infections and Imaging: Continued intravenous antibiotics (Meropenem and Vancomycin) with oral Suprax; follow-up imaging with PET/CT for hepatic lesions
+- Pain Management: Maintenance of fentanyl patch; planned superior hypogastric plexus block
+- Surgical Consultations: Multidisciplinary evaluation for abdominal collections with deferment of invasive biopsy
+- Follow-Up and Referrals: Transition to adult oncology and palliative care, monitoring for potential malignancy of hepatic lesions
+
+Assessment and Prognosis:
+The patient presents with a complex condition involving recurrent infections, chronic pain, and multisystem involvement. While surgical options are limited, ongoing palliative care aims to address pain and improve quality of life. Further evaluation of hepatic lesions and infection management will guide long-term care planning.

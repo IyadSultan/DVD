@@ -1,0 +1,53 @@
+**Medical Report**
+
+**Patient Information:**
+- Date of Birth: November 23, 1996
+- Age: 27-28 years
+- Gender: Female
+- National ID: 9232365666896
+
+**Clinical Summary:**
+The patient is a 27-year-old female with a complex medical history, including Neurofibromatosis Type 1 (NF1) and a prior diagnosis of a plexiform neurofibroma that underwent malignant transformation to a malignant peripheral nerve sheath tumor (MPNST) in 2018. She has experienced multiple complications following various surgeries and interventions, including recurrent infections, progressive hydronephrosis, bowel obstructions, and significant chronic pain.
+
+**Key Medical History:**
+- **Neurofibromatosis Type 1 (NF1):** Long-standing history of pelvic plexiform neurofibroma since 2003, with malignant transformation to MPNST excised in July 2018. Received postoperative external beam radiotherapy (EBRT) of 60Gy in 30 fractions, completed on December 16, 2018.
+
+**Surgeries and Interventions:**
+- Hysterectomy, right nephrectomy, and urinary diversion with ureterostomy and ileal conduit
+- Exploratory laparotomy with adhesiolysis, small bowel resection, and end ileostomy on September 21, 2023
+- Multiple urostomy and mass excision revisions
+- Neurolytic coeliac plexus block for chronic pain on November 13, 2024
+
+**Renal and Urological Issues:**
+- Single left kidney with progressive hydronephrosis
+- Recurrent urinary tract infections (UTIs) with multidrug-resistant organisms (ESBL and CRE)
+- Chronic renal impairment with a history of resolving acute kidney injury (AKI)
+
+**Gastrointestinal Issues:**
+- Multiple bowel obstructions and history of fecal peritonitis
+- Infected wounds with recurrent abdominal collections identified via imaging
+
+**Chronic Pain and Palliative Care:**
+- Chronic visceral abdominal pain managed with opioid therapy including fentanyl, methadone, and other analgesics
+- Managed by pediatric and adult palliative services with consideration for neurolytic pain management interventions
+
+**Recent Admissions and Clinical Events:**
+- November 29, 2023: Distal loop fluoroscopy was aborted due to severe abdominal pain. Imaging indicated an incomplete passage of contrast beyond 10 cm from the ileostomy, raising concerns for bowel obstruction.
+- January 24, 2024: Presented to ER with infected abdominal wounds and abdominal pain. Imaging revealed three intraperitoneal collections, the largest measuring 10 cm in the pelvis, and an interval increase in two hepatic lesions. Diffuse thickening of distal small bowel loops suggested enteritis.
+- December 2024: Persistent abdominal pain rated at 5 out of 10 despite multimodal pain therapy. A neurolytic superior hypogastric plexus block is planned.
+
+**Osteopenia and Osteoporosis:**
+- History of osteopenia and osteoporosis confirmed by DEXA scans (2019-2021). Notable scores: Lumbar Z-score -2.4 in 2019, Lumbar T-score -2.5 and Hip T-score -1.1 in 2020, Lumbar T-score -2.2 and Hip T-score -1.0 in 2021.
+- History of non-compliance with hormone replacement therapy for ovarian failure and vitamin D supplementation.
+
+**Infections and Wound Care:**
+- Persistent infections include ESBL and CRE-positive Proteus mirabilis and E. coli from urine and wound cultures. Recently, a sinus-like puncture from the lower abdomen discharged pus, confirmed as an intra-abdominal infection via imaging.
+
+**Current Management Plans:**
+- **Infections and Imaging:** Continued intravenous antibiotics (Meropenem and Vancomycin) with oral Suprax for 5 days. Follow-up imaging with PETCT for hepatic lesions.
+- **Pain Management:** Maintenance of fentanyl patch 300 mcg every 48 hours. Planned superior hypogastric plexus block.
+- **Surgical Consultations:** Multidisciplinary evaluation for recurrent abdominal collections and decision to defer invasive biopsy due to "frozen abdomen."
+- **Follow-Up and Referrals:** Transition to adult oncology and palliative care services. Monitoring for potential malignancy of hepatic lesions.
+
+**Assessment and Prognosis:**
+The patient's condition remains complex with recurrent infections, chronic pain, and multisystem involvement. Surgical options are limited; however, ongoing palliative care aims to address pain and improve quality of life. Further evaluation of hepatic lesions and ongoing infection management will guide long-term care planning.

@@ -1,0 +1,40 @@
+Medical Report
+
+Hospital Admission and Discharge Details:
+- Recent admissions: November 29, 2023, for severe abdominal pain and January 24, 2024, for an infected abdominal wound and pain.
+
+Reason for Hospitalization:
+- Severe abdominal pain indicating bowel obstruction and infected abdominal wound with pain.
+
+Hospital Course Summary:
+- Management included intravenous antibiotics and imaging for infections, maintaining pain management, and consultations for surgical evaluation of abdominal collections.
+
+Discharge Diagnosis:
+- Recurrent multidrug-resistant UTIs, chronic renal impairment, bowel obstructions, chronic abdominal pain, and hepatic lesions.
+
+Procedures Performed:
+- Exploratory laparotomy with adhesiolysis, small bowel resection, and end ileostomy on September 21, 2023.
+
+Medications at Discharge:
+- Intravenous antibiotics (Meropenem and Vancomycin), oral Suprax, and fentanyl patch for pain management.
+
+Discharge Instructions:
+- Continue prescribed medications and follow-up imaging with PET/CT for hepatic lesions.
+
+Follow-Up Care:
+- Transition to adult oncology and palliative care for ongoing management; monitor potential malignancy of hepatic lesions.
+
+Patient's Condition at Discharge:
+- Complex condition with multisystem involvement, requiring chronic pain management and infection control.
+
+Patient Education and Counseling:
+- Discussion on the importance of compliance with medication and follow-up appointments for effective management of her condition.
+
+Pending Results:
+- Awaiting results from follow-up imaging for hepatic lesions.
+
+Healthcare Provider Information:
+- Managed by pediatric and adult palliative care services and multidisciplinary team for surgical consultations.
+
+Additional Notes:
+- Ongoing evaluation and adaptation of care plan to address the patient's complex needs and improve quality of life.

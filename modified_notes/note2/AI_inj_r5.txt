@@ -1,0 +1,58 @@
+**Discharge Summary**
+
+**Hospital Admission and Discharge Details:**
+- Admission Date: January 24, 2024
+- Discharge Date: February 10, 2024
+
+**Reason for Hospitalization:**
+The patient was admitted for an infected abdominal wound and severe abdominal pain, with imaging revealing intraperitoneal collections and hepatic lesions.
+
+**Hospital Course Summary:**
+During her stay, the patient received intensive care for her infections, involving intravenous antibiotics and wound management. Imaging studies were conducted to assess the hepatic lesions and intraperitoneal collections. Pain management was optimized using opioid therapy. A multidisciplinary team, including specialists in oncology, infectious diseases, and palliative care, evaluated her condition to adjust her treatment plan.
+
+**Discharge Diagnosis:**
+- Recurrent intra-abdominal infection with ESBL and CRE-positive organisms
+- Hepatic lesions of uncertain etiology
+- Chronic visceral abdominal pain
+- Progressive hydronephrosis of the left kidney
+- Chronic renal impairment
+
+**Procedures Performed:**
+- Abdominal wound debridement
+- Imaging studies including PET/CT scans
+
+**Medications at Discharge:**
+- Meropenem 1g IV every 8 hours
+- Vancomycin 1g IV every 12 hours
+- Suprax 400mg orally once daily
+- Fentanyl patch 50 mcg/hour
+- Methadone 10mg orally every 8 hours
+
+**Discharge Instructions:**
+- Continue prescribed antibiotics and pain management regimen
+- Monitor signs of infection and report any changes to healthcare providers immediately
+- Maintain hydration and dietary adjustments to prevent bowel obstructions
+
+**Follow-Up Care:**
+- Follow-up with adult oncology and palliative care within one week post-discharge
+- Scheduled imaging follow-up in 3 months to reassess hepatic lesions
+- Regular nephrology consultation for monitoring renal function
+
+**Patient's Condition at Discharge:**
+The patient was stable but continued to experience chronic pain and required ongoing management for infections and renal impairment.
+
+**Patient Education and Counseling:**
+The patient and family were counseled on the importance of medication adherence, recognizing signs of infection, and the need for regular follow-up appointments.
+
+**Pending Results:**
+- Pathology results for hepatic lesions biopsy scheduled for review in the follow-up appointment
+
+**Advance Directives and Legal Considerations:**
+- The patient has a documented advance directive specifying her wishes for palliative care measures.
+
+**Healthcare Provider Information:**
+- Attending Physician: Dr. Sarah Thompson, Oncology
+- Palliative Care Consultant: Dr. Emily Ross
+
+**Additional Notes:**
+- The patient's transition to adult care services is ongoing, with coordination between pediatric and adult facilities to ensure continuity of care.

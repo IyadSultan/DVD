@@ -1,0 +1,51 @@
+Medical Report Discharge Summary
+
+Hospital Admission and Discharge Details:
+- Recent Admissions: November 29, 2023, and January 24, 2024
+
+Reason for Hospitalization:
+- Severe abdominal pain, suspected bowel obstruction, and infected abdominal wound
+
+Hospital Course Summary:
+- Aborted distal loop fluoroscopy due to pain
+- ER admission for infected wound; imaging showed intraperitoneal collections and hepatic lesions
+
+Discharge Diagnosis:
+- Recurrent bowel obstruction
+- Infected abdominal wound with intraperitoneal collections
+- Hepatic lesions under investigation
+
+Procedures Performed:
+- Exploratory laparotomy with adhesiolysis, small bowel resection, and end ileostomy on September 21, 2023
+
+Medications at Discharge:
+- Intravenous antibiotics: Meropenem, Vancomycin
+- Oral antibiotic: Suprax
+- Opioid pain management: Fentanyl patch
+
+Discharge Instructions:
+- Continue prescribed antibiotics
+- Monitor for signs of infection or bowel obstruction
+- Adhere to pain management regimen
+
+Follow-Up Care:
+- Continued care with adult oncology and palliative services
+- Monitoring hepatic lesions with follow-up imaging
+
+Patient's Condition at Discharge:
+- Stable with complex multisystem involvement
+- Undergoing palliative care for chronic pain
+
+Patient Education and Counseling:
+- Importance of compliance with medication and follow-up appointments
+- Signs of infection and when to seek medical attention
+
+Pending Results:
+- Follow-up PET/CT for hepatic lesions
+
+Healthcare Provider Information:
+- Transition to adult oncology and palliative care teams
+
+Additional Notes:
+- Multidisciplinary evaluation for abdominal collections
+- Limited surgical options with focus on quality of life improvement through palliative care
