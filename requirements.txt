@@ -3,3 +3,7 @@ langchain-openai
 langchain-core
 tqdm
 openai
+langchain-community
+langchain
+python-dotenv
+pydantic

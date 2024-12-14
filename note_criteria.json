@@ -1,0 +1,63 @@
+{
+    "note_types": {
+        "discharge_note": {
+            "name": "Discharge Note",
+            "relevancy_criteria": [
+                "Hospital Admission and Discharge Details",
+                "Reason for Hospitalization",
+                "Hospital Course Summary", 
+                "Discharge Diagnosis",
+                "Procedures Performed",
+                "Imaging studies",
+                "Medications at Discharge",
+                "Discharge Instructions",
+                "Follow-Up Care",
+                "Patient's Condition at Discharge",
+                "Patient Education and Counseling",
+                "Pending Results",
+                "Advance Directives and Legal Considerations",
+                "Important Abnormal (not normal)lab results, e.g. bacterial cultures, urine cultures, electrolyte disturbances, etc.",
+                "Important abnormal vital signs, e.g. fever, tachycardia, hypotension, etc.",
+                "Admission to ICU",
+                "comorbidities, e.g. diabetes, hypertension, etc.",
+                "Equipment needed at discharge, e.g. wheelchair, crutches, etc.",
+                "Prosthetics and tubes, e.g. Foley catheter, etc.",
+                "Allergies",
+                "Consultations (e.g., specialty or ancillary services)",
+                "Functional Capacity (ADLs and mobility status)",
+                "Lifestyle Modifications (diet, exercise, smoking cessation, etc.)",
+                "Wound Care or Other Specific Care Instructions"
+            ]
+        },
+        "admission_note": {
+            "name": "Admission Note",
+            "relevancy_criteria": [
+                "Patient Demographics and Identification",
+                "Chief Complaint",
+                "History of Present Illness",
+                "Past Medical History",
+                "Past Surgical History",
+                "Current Medications",
+                "Allergies",
+                "Social History (including smoking, alcohol, drugs)",
+                "Family History",
+                "Review of Systems",
+                "Physical Examination Findings",
+                "Vital Signs on Admission",
+                "Initial Laboratory Results",
+                "Initial Imaging Results",
+                "Initial Assessment/Impression",
+                "Differential Diagnosis",
+                "Initial Treatment Plan",
+                "Admission Orders",
+                "Code Status and Advance Directives",
+                "Consultations Requested",
+                "Anticipated Course of Stay",
+                "Functional Status on Admission",
+                "Mental Status Assessment",
+                "Pain Assessment",
+                "Admission Precautions (isolation, fall risk, etc.)"
+            ]
+        }
+    }
+}

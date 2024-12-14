@@ -1,4 +1,4 @@
-ds<- read.csv("E:/Dropbox/AI/Projects/DVD/results_note2.csv")
+ds<- read.csv("results_note2.csv")
 print(dim(ds))
 # [1] "folder_name"     "note_name"       "question"        "best_answer"    
 # [5] "correct_answer"  "ai_answer"       "note_answer"     "ai_word_count"  

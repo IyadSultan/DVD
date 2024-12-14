@@ -5,6 +5,7 @@ from tqdm import tqdm
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
+import json
 
 load_dotenv()
 
@@ -21,34 +22,32 @@ def initialize_llm():
     """Initialize the language model."""
     return ChatOpenAI(model="gpt-4o", temperature=0.7)
 
-def get_relevancy_criteria():
-    """Define what constitutes relevant information in medical notes."""
-    return [
-        "Hospital Admission and Discharge Details",
-        "Reason for Hospitalization",
-        "Hospital Course Summary",
-        "Discharge Diagnosis",
-        "Procedures Performed",
-        "Imaging studies",
-        "Medications at Discharge",
-        "Discharge Instructions",
-        "Follow-Up Care",
-        "Patient's Condition at Discharge",
-        "Patient Education and Counseling",
-        "Pending Results",
-        "Advance Directives and Legal Considerations",
-        "Important Abnormal (not normal)lab results, e.g. bacterial cultures, urine cultures, electrolyte disturbances, etc.",
-        "Important abnormal vital signs, e.g. fever, tachycardia, hypotension, etc.",
-        "Admission to ICU",
-        "comorbidities, e.g. diabetes, hypertension, etc.",
-        "Equipment needed at discharge, e.g. wheelchair, crutches, etc.",
-        "Prosthetics and tubes, e.g. Foley catheter, etc.",
-        "Allergies",
-        "Consultations (e.g., specialty or ancillary services)",
-        "Functional Capacity (ADLs and mobility status)",
-        "Lifestyle Modifications (diet, exercise, smoking cessation, etc.)",
-        "Wound Care or Other Specific Care Instructions",
-        ]
+def get_relevancy_criteria(note_type="discharge_note"):
+    """
+    Get relevancy criteria for a specific note type from JSON file.
+    
+    Args:
+        note_type (str): Type of medical note (default: "discharge_note")
+        
+    Returns:
+        list: List of relevancy criteria for the specified note type
+        
+    Raises:
+        FileNotFoundError: If the JSON file is not found
+        KeyError: If the specified note type is not found in the JSON file
+    """
+    try:
+        with open('note_criteria.json', 'r', encoding='utf-8') as file:
+            criteria_data = json.load(file)
+            
+        if note_type not in criteria_data['note_types']:
+            raise KeyError(f"Note type '{note_type}' not found in criteria file")
+            
+        return criteria_data['note_types'][note_type]['relevancy_criteria']
+    except FileNotFoundError:
+        raise FileNotFoundError("note_criteria.json file not found")
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Invalid JSON format in note_criteria.json: {str(e)}")
 
 def create_relevancy_prompt():
     """Create the prompt for defining relevant information."""
@@ -222,13 +221,40 @@ def save_file(filepath, content):
     except Exception as e:
         print(f"❌ Error saving {filepath}: {str(e)}")
 
+def get_available_note_types():
+    """
+    Get a list of available note types from the criteria file.
+    
+    Returns:
+        dict: Dictionary of available note types and their full names
+    """
+    try:
+        with open('note_criteria.json', 'r', encoding='utf-8') as file:
+            criteria_data = json.load(file)
+        
+        return {
+            note_type: data['name']
+            for note_type, data in criteria_data['note_types'].items()
+        }
+    except FileNotFoundError:
+        raise FileNotFoundError("note_criteria.json file not found")
+    except json.JSONDecodeError as e:
+        raise ValueError(f"Invalid JSON format in note_criteria.json: {str(e)}")
+
 def main():
     parser = argparse.ArgumentParser(description='Modify medical notes with variations.')
     parser.add_argument('--input', type=str, help='Input file or folder path', required=True)
     parser.add_argument('--output', type=str, help='Output folder path', required=True)
+    parser.add_argument('--note-type', type=str, default='discharge_note',
+                      help='Type of medical note to process')
     args = parser.parse_args()
     
     try:
+        # Get available note types
+        available_types = get_available_note_types()
+        if args.note_type not in available_types:
+            raise ValueError(f"Invalid note type. Available types: {list(available_types.keys())}")
+        
         print("🚀 Starting note modification process...")
         
         # Setup
