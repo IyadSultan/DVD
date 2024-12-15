@@ -11,6 +11,11 @@ import tiktoken
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
 
+from dotenv import load_dotenv
+
+
+load_dotenv()
+
 # Define data models
 class MCQ(BaseModel):
     question: str
