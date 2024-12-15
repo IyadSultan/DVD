@@ -443,6 +443,22 @@ Requirements:
         """Generate all variations of a note in a sequential workflow (total 21 new rows)."""
         modifications = []
         
+        # Add original note first
+        modifications.append({
+            'original_note_number': note_number,
+            'new_note_name': 'original_note',
+            'modified_text': note,
+            'modifications': 'Original unmodified note',
+            'processing_time': 0,
+            'input_tokens': count_tokens(note, self.model_name),
+            'output_tokens': 0,
+            'total_tokens': count_tokens(note, self.model_name),
+            'added_text': '',
+            'removed_text': '',
+            'model': self.model_name,
+            'timestamp': datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        })
+        
         # Step 1: Create initial AI rewrite
         print("\n1️⃣ Creating initial AI rewrite...")
         ai_result = self.create_ai_rewrite(note)
