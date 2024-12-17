@@ -7,6 +7,8 @@ from datetime import datetime
 from pydantic import BaseModel, Field
 from tqdm import tqdm
 import tiktoken
+from typing import List, Dict, Any, Optional
+
 
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage, SystemMessage
@@ -21,6 +23,7 @@ class MCQ(BaseModel):
     question: str
     options: List[str]
     correct_answer: str
+    source_name: str = Field(default="Unknown")  # Add source_name field with default value
 
 class Document(BaseModel):
     name: str = ''
@@ -40,36 +43,44 @@ def num_tokens_from_messages(messages, model="gpt-4"):
     num_tokens += 2  # every reply is primed with <im_start>assistant
     return num_tokens
 
-def generate_mcqs_for_note(note_content, total_tokens) -> List[MCQ]:
+def generate_mcqs_for_note(note_content: str, total_tokens: List[int], source_name: str = '') -> List[MCQ]:
     """
-    Generate MCQs for a given note content.
+    Generate Multiple Choice Questions (MCQs) from medical notes.
+    
+    Args:
+        note_content (str): The medical note content to generate questions from
+        total_tokens (List[int]): List containing token count to update
+        source_name (str, optional): Name of the source document. Defaults to ''
+    
+    Returns:
+        List[MCQ]: List of generated MCQ objects
     """
-    system_message = """
+    system_prompt = """
 You are an expert in creating MCQs based on medical notes. Generate 20 MCQs that ONLY focus on these key areas:
-- Hospital Admission/Discharge Details
-- Reason for Hospitalization
-- Hospital Course Summary
-- Discharge Diagnosis
-- Procedures and Imaging
-- Discharge Medications
-- Follow-Up Instructions
-- Patient's Discharge Condition
-- Important Abnormal Labs/Vitals
-- ICU Admission
-- Comorbidities
-- Equipment/Prosthetics
-- Allergies
-- Consultations
-- Functional Status
-- Care Instructions
+1. Hospital Admission/Discharge Details
+2. Reason for Hospitalization
+3. Hospital Course Summary
+4. Discharge Diagnosis
+5. Procedures and Imaging
+6. Discharge Medications
+7. Follow-Up Instructions
+8. Patient's Discharge Condition
+9. Important Abnormal Labs/Vitals
+10. ICU Admission
+11. Comorbidities
+12. Equipment/Prosthetics
+13. Allergies
+14. Consultations
+15. Functional Status
+16. Care Instructions
 
-Rules:
+Rules and Format:
 1. Each question must relate to specific content from these areas
 2. Skip areas not mentioned in the note
-3. Format: 5 options (A-D plus E="I don't know")
-4. No explanations, just questions and answers
+3. Each question must have exactly 5 options (A-D plus E="I don't know")
+4. Provide only questions and answers, no explanations
+5. Use this exact format:
 
-Format:
 Question: [text]
 A. [option]
 B. [option]
@@ -78,50 +89,82 @@ D. [option]
 E. I don't know
 Correct Answer: [letter]
 """
-    human_message = f"Create MCQs from this note:\n\n{note_content}"
 
-    messages = [
-        SystemMessage(content=system_message),
-        HumanMessage(content=human_message)
-    ]
+    def parse_mcq(mcq_text: str) -> Optional[MCQ]:
+        """Parse a single MCQ from text format into an MCQ object."""
+        try:
+            lines = [line.strip() for line in mcq_text.split('\n') if line.strip()]
+            if len(lines) < 7:  # Question + 5 options + correct answer
+                return None
 
+            # Extract question
+            if not lines[0].startswith('Question:'):
+                return None
+            question = lines[0].replace('Question:', '', 1).strip()
+
+            # Extract options
+            options = []
+            for i, line in enumerate(lines[1:6], 1):
+                if not line.startswith(chr(ord('A') + i - 1) + '.'):
+                    return None
+                option = line.split('.', 1)[1].strip()
+                options.append(option)
+
+            # Extract correct answer
+            correct_line = lines[6]
+            if not correct_line.lower().startswith('correct answer:'):
+                return None
+            
+            correct_letter = correct_line.split(':', 1)[1].strip().upper()
+            if correct_letter not in 'ABCDE':
+                return None
+
+            correct_index = ord(correct_letter) - ord('A')
+            correct_answer = options[correct_index] if correct_index < len(options) else options[-1]
+
+            return MCQ(
+                question=question,
+                options=options,
+                correct_answer=correct_answer,
+                source_name=source_name
+            )
+        except Exception as e:
+            print(f"Error parsing MCQ: {str(e)}")
+            return None
+
+    # Generate MCQs using LLM
     print("\nSending request to generate MCQs...")
     try:
+        messages = [
+            SystemMessage(content=system_prompt),
+            HumanMessage(content=f"Create MCQs from this note:\n\n{note_content}")
+        ]
+        
         response = llm(messages)
         print("\nReceived response. Processing MCQs...")
-        print("\nRaw response:")
-        print(response.content[:500] + "...") # Print first 500 chars
+        print("\nRaw response (first 500 chars):")
+        print(response.content[:500] + "...")
+        
+        # Update token count
+        tokens_used = num_tokens_from_messages([
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": note_content},
+            {"role": "assistant", "content": response.content}
+        ], model="gpt-4")
+        total_tokens[0] += tokens_used
+
+        # Parse MCQs from response
+        mcqs = []
+        for mcq_text in response.content.strip().split('\n\n'):
+            if mcq := parse_mcq(mcq_text):
+                mcqs.append(mcq)
+
+        print(f"Successfully generated {len(mcqs)} valid MCQs")
+        return mcqs
+
     except Exception as e:
-        print(f"Error generating MCQs: {e}")
+        print(f"Error in MCQ generation: {str(e)}")
         return []
-
-    tokens_used = num_tokens_from_messages([
-        {"role": "system", "content": system_message},
-        {"role": "user", "content": human_message},
-        {"role": "assistant", "content": response.content}
-    ], model="gpt-4")
-    total_tokens[0] += tokens_used
-
-    mcqs = []
-    for mcq_text in response.content.strip().split("\n\n"):
-        lines = [line.strip() for line in mcq_text.strip().split("\n") if line.strip()]
-        if len(lines) < 7:
-            continue
-
-        question = lines[0].replace("Question: ", "").strip()
-        options = [line.split(". ", 1)[1].strip() for line in lines[1:6] if ". " in line]
-        correct_answer_line = next((line for line in lines if line.lower().startswith("correct answer:")), None)
-
-        if correct_answer_line and len(options) == 5:
-            correct_answer_letter = correct_answer_line.split(":", 1)[1].strip()
-            correct_answer_index = ord(correct_answer_letter.upper()) - ord('A')
-            if 0 <= correct_answer_index < len(options):
-                correct_answer = options[correct_answer_index]
-            else:
-                correct_answer = options[-1]
-            mcqs.append(MCQ(question=question, options=options, correct_answer=correct_answer))
-
-    return mcqs
 
 def present_mcqs_to_content(mcqs, content, total_tokens) -> List[Dict]:
     """
@@ -221,8 +264,8 @@ def run_evaluation(ai_content, ai_mcqs, note_content, note_name, original_note_n
     """
     Run evaluation for a pair of notes.
     """
-    mcqs_note = generate_mcqs_for_note(note_content, total_tokens)
-    mcqs_ai = ai_mcqs
+    mcqs_note = generate_mcqs_for_note(note_content, total_tokens, source_name=note_name)
+    mcqs_ai = ai_mcqs  # ai_mcqs already have source_name='AI'
     mcqs = mcqs_note + mcqs_ai
 
     ai_responses = present_mcqs_to_content(mcqs, ai_content, total_tokens)
@@ -234,10 +277,11 @@ def run_evaluation(ai_content, ai_mcqs, note_content, note_name, original_note_n
             "original_note_number": original_note_number,
             "new_note_name": note_name,
             "question": mcq.question,
-            "ideal_answer": mcq.options[ord(ai_responses[i]["correct_answer"]) - ord('A')],  # Full text
-            "correct_answer": ai_responses[i]["correct_answer"],  # Letter
-            "ai_answer": ai_responses[i]["user_answer"],  # Letter
-            "note_answer": note_responses[i]["user_answer"],  # Letter
+            "source_document": mcq.source_name,  # Now we can access it directly
+            "ideal_answer": mcq.options[ord(ai_responses[i]["correct_answer"]) - ord('A')],
+            "correct_answer": ai_responses[i]["correct_answer"],
+            "ai_answer": ai_responses[i]["user_answer"],
+            "note_answer": note_responses[i]["user_answer"],
             "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
         }
         results.append(result)
@@ -302,7 +346,7 @@ def main():
         
         ai_text = ai_row.iloc[0]["modified_text"]
         print("Generating MCQs for AI note...")
-        mcqs_ai = generate_mcqs_for_note(ai_text, total_tokens)
+        mcqs_ai = generate_mcqs_for_note(ai_text, total_tokens, source_name='AI')
         print(f"Generated {len(mcqs_ai)} MCQs from AI note")
         
         # Cache AI text for reuse
@@ -320,8 +364,9 @@ def main():
     file_exists = os.path.exists(args.result_csv)
     mode = 'a' if file_exists else 'w'
     
-    fieldnames = ["original_note_number", "new_note_name", "question", "ideal_answer", 
-                 "correct_answer", "ai_answer", "note_answer", "timestamp", "total_tokens"]
+    fieldnames = ["original_note_number", "new_note_name", "question", "source_document", 
+                 "ideal_answer", "correct_answer", "ai_answer", "note_answer", 
+                 "timestamp", "total_tokens"]
     
     with open(args.result_csv, mode, newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
