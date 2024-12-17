@@ -1,4 +1,4 @@
-ds<- read.csv("results.csv")
+ds<- read.csv("results_gpt_4o.csv")
 print(dim(ds))
 print(colnames(ds))
 # [1] "original_note_number" "new_note_name"        "question"

@@ -30,7 +30,7 @@ class Document(BaseModel):
     content: str
     mcqs: List[MCQ] = Field(default_factory=list)
 
-def num_tokens_from_messages(messages, model="gpt-4"):
+def num_tokens_from_messages(messages, model="gpt-4o"):
     """
     Estimate token usage for messages using tiktoken.
     """
@@ -150,7 +150,7 @@ Correct Answer: [letter]
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": note_content},
             {"role": "assistant", "content": response.content}
-        ], model="gpt-4")
+        ], model="gpt-4o")
         total_tokens[0] += tokens_used
 
         # Parse MCQs from response
@@ -207,7 +207,7 @@ etc.
         tokens_used = num_tokens_from_messages([
             {"role": "user", "content": batch_prompt},
             {"role": "assistant", "content": response.content}
-        ], model="gpt-4")
+        ], model="gpt-4o")
 
         total_tokens[0] += tokens_used
 
@@ -294,7 +294,7 @@ def main():
     parser.add_argument("--result_csv", default="results.csv", help="Output CSV file")
     parser.add_argument("--start", type=int, default=0, help="Start original_note_number (inclusive)")
     parser.add_argument("--end", type=int, default=10, help="End original_note_number (exclusive)")
-    parser.add_argument("--model", default="gpt-4", help="OpenAI model to use")
+    parser.add_argument("--model", default="gpt-4o", help="OpenAI model to use")
     args = parser.parse_args()
 
     print(f"\n=== MCQ EVALUATOR ===")
@@ -349,17 +349,17 @@ def main():
         mcqs_ai = generate_mcqs_for_note(ai_text, total_tokens, source_name='AI')
         print(f"Generated {len(mcqs_ai)} MCQs from AI note")
         
-        # Cache AI text for reuse
+        # Process ALL other notes (including original)
         print("\nProcessing comparisons...")
-        non_ai_rows = group[group["new_note_name"] != "AI"]
+        other_rows = group[group["new_note_name"] != "AI"]
         
-        for idx, row in non_ai_rows.iterrows():
+        for idx, row in other_rows.iterrows():
             note_name = row["new_note_name"]
             print(f"\nProcessing comparison with {note_name}")
             note_text = row["modified_text"]
             
             result = run_evaluation(ai_text, mcqs_ai, note_text, note_name, onum, total_tokens)
-            results.append(result)
+            results.extend(result)
 
     file_exists = os.path.exists(args.result_csv)
     mode = 'a' if file_exists else 'w'
@@ -384,5 +384,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-# example command
-# python dvd_evaluator.py --modified_csv "modified_notes/modified_notes.csv" --result_csv "results.csv" --start 0 --end 10 --model "gpt-4o-mini"
+#python dvd_evaluator.py --modified_csv "modified_notes/modified_notes_4o-mini_0_to_10.csv" --result_csv "results_4o_mini_0to10.csv" --start 0 --end 10 --model "gpt-4o-mini"

@@ -14,7 +14,7 @@ import difflib
 import tiktoken
 from typing import List, Dict, Tuple, Optional
 
-def count_tokens(text: str, model: str = "gpt-4") -> int:
+def count_tokens(text: str, model: str = "gpt-4o") -> int:
     """Count tokens in a text string."""
     try:
         encoding = tiktoken.encoding_for_model(model)
@@ -52,7 +52,7 @@ def get_text_differences(original: str, modified: str) -> Tuple[List[str], List[
     return added, removed
 
 class NoteProcessor:
-    def __init__(self, model_name: str = "gpt-4"):
+    def __init__(self, model_name: str = "gpt-4o"):
         """Initialize the note processor with specified model."""
         self.load_environment()
         self.llm = ChatOpenAI(model=model_name, temperature=0.7)
@@ -546,7 +546,7 @@ Requirements:
         return modifications
 
 class NoteModificationPipeline:
-    def __init__(self, input_path: str, output_path: str, model_name: str = "gpt-4"):
+    def __init__(self, input_path: str, output_path: str, model_name: str = "gpt-4o"):
         """Initialize the note modification pipeline."""
         self.input_path = input_path
         self.output_path = output_path
@@ -688,4 +688,4 @@ if __name__ == "__main__":
 
 
 # example command: python note_modifier.py --input samples/discharge_samples_200.csv --output samples/discharge_samples_200_modified --model gpt-4o-mini --start 0 --end 10
-# python note_modifier.py --input samples/discharge_samples_200.csv --output modified_notes.csv --start 0 --end 1 --model gpt-4
+# python note_modifier.py --input samples/discharge_samples_200.csv --output modified_notes --start 0 --end 1 --model gpt-4

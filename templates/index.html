@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document vs. Document (DVD)</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-4xl mx-auto">
+        <h1 class="text-3xl font-bold mb-8">Document vs. Document (DVD)</h1>
+        
+        <!-- Upload Form -->
+        <form id="uploadForm" class="bg-white p-6 rounded-lg shadow-md mb-8">
+            <div class="grid grid-cols-2 gap-6 mb-6">
+                <div>
+                    <label class="block text-sm font-medium mb-2">Document 1</label>
+                    <input type="file" name="doc1" accept=".txt" required
+                           class="w-full border rounded p-2">
+                </div>
+                <div>
+                    <label class="block text-sm font-medium mb-2">Document 2</label>
+                    <input type="file" name="doc2" accept=".txt" required
+                           class="w-full border rounded p-2">
+                </div>
+            </div>
+            
+            <div class="mb-6">
+                <label class="block text-sm font-medium mb-2">Model</label>
+                <select name="model" class="w-full border rounded p-2">
+                    {% for model in models %}
+                    <option value="{{ model }}">{{ model }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <div class="mb-6">
+                <label class="block text-sm font-medium mb-2">Document Type</label>
+                <select name="document_type" class="w-full border rounded p-2">
+                    {% for type_id, type_info in document_types.items() %}
+                    <option value="{{ type_id }}">{{ type_info.name }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+            
+            <button type="submit" 
+                    class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
+                Compare Documents
+            </button>
+        </form>
+
+        <!-- Loading indicator -->
+        <div id="loading" class="hidden">
+            <div class="text-center py-4">
+                <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500 mx-auto"></div>
+                <p class="mt-2">Processing documents... May take a few minutes.</p>
+            </div>
+        </div>
+        
+        <!-- Results Section -->
+        <div id="results" class="hidden">
+            <div class="grid grid-cols-2 gap-6">
+                <!-- Document 1 Results -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-bold mb-4">Document 1 Results</h2>
+                    <div id="doc1Results"></div>
+                </div>
+                
+                <!-- Document 2 Results -->
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-bold mb-4">Document 2 Results</h2>
+                    <div id="doc2Results"></div>
+                </div>
+            </div>
+
+            <!-- Separator -->
+            <hr class="my-6">
+
+            <!-- Side-by-side display of the original documents -->
+            <div class="grid grid-cols-2 gap-6">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-bold mb-4">Document 1 Text</h2>
+                    <pre id="doc1Text" class="whitespace-pre-wrap text-sm"></pre>
+                </div>
+
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <h2 class="text-xl font-bold mb-4">Document 2 Text</h2>
+                    <pre id="doc2Text" class="whitespace-pre-wrap text-sm"></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+            
+            const loading = document.getElementById('loading');
+            const results = document.getElementById('results');
+            
+            loading.classList.remove('hidden');
+            results.classList.add('hidden');
+            
+            const formData = new FormData(e.target);
+            
+            try {
+                const response = await fetch('/compare', {
+                    method: 'POST',
+                    body: formData
+                });
+                
+                const data = await response.json();
+                
+                if (response.ok) {
+                    // Display analysis for both documents
+                    displayResults('doc1Results', data.doc1_analysis);
+                    displayResults('doc2Results', data.doc2_analysis);
+
+                    // Display the original note texts side-by-side
+                    const doc1TextEl = document.getElementById('doc1Text');
+                    const doc2TextEl = document.getElementById('doc2Text');
+
+                    doc1TextEl.textContent = data.doc1_content || 'No content';
+                    doc2TextEl.textContent = data.doc2_content || 'No content';
+
+                    results.classList.remove('hidden');
+                } else {
+                    alert(data.error || 'An error occurred');
+                }
+            } catch (error) {
+                alert('An error occurred while processing the documents');
+            } finally {
+                loading.classList.add('hidden');
+            }
+        });
+
+        function displayResults(elementId, analysis) {
+            const container = document.getElementById(elementId);
+            
+            container.innerHTML = `
+                <div class="mb-4">
+                    <h3 class="font-bold">Total Score:</h3>
+                    <p>${analysis.total_score}</p>
+                </div>
+                
+                <div class="mb-4">
+                    <h3 class="font-bold">Self Questions Mistakes:</h3>
+                    ${renderQuestionList(analysis.self_mistakes)}
+                </div>
+                
+                <div class="mb-4">
+                    <h3 class="font-bold">Other Document Mistakes:</h3>
+                    ${renderQuestionList(analysis.other_mistakes)}
+                </div>
+                
+                <div class="mb-4">
+                    <h3 class="font-bold">Unknown Answers:</h3>
+                    ${renderQuestionList(analysis.unknown_answers, true)}
+                </div>
+            `;
+        }
+
+        function renderQuestionList(questions, isUnknown = false) {
+            if (!questions.length) {
+                return '<p class="text-gray-500">None</p>';
+            }
+            
+            return questions.map(q => `
+                <div class="mb-2 p-2 bg-gray-50 rounded">
+                    <p class="font-medium">${q.question}</p>
+                    <p class="text-sm">Ideal Answer: ${q.ideal_answer}</p>
+                    ${!isUnknown ? `<p class="text-sm">Model Answer: ${q.model_answer}</p>` : ''}
+                </div>
+            `).join('');
+        }
+    </script>
+</body>
+</html>
