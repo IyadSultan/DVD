@@ -1,0 +1,841 @@
+original_note_number,new_note_name,question,ideal_answer,correct_answer,ai_answer,note_answer,timestamp,total_tokens
+0,original_note,Question 1: What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 2: What was the discharge diagnosis for the patient?,Breast cancer,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 3: What procedure was performed during the hospitalization?,Left breast lumpectomy with axillary dissection,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 4: What was the patient's condition upon discharge as measured by the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:21:45,221647
+0,original_note,Question 5: What was the patient's performance status upon discharge?,0 (Full Active),C,C,C,2024-12-15 07:21:45,221647
+0,original_note,Question 6: What was the patient's pain scale rating upon discharge?,1,D,D,D,2024-12-15 07:21:45,221647
+0,original_note,Question 7: What was the patient's code status at the time of discharge?,Full code,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 8: What was the follow-up appointment scheduled for the patient?,Surgical oncology clinic,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 9: What was the discharge type for the patient?,Elective discharge,C,C,C,2024-12-15 07:21:45,221647
+0,original_note,Question 10: What was the important abnormal finding noted in the imaging studies?,Nodular thickening of the left adrenal gland,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 11: What comorbidities did the patient have?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 12: What was the patient's allergy status?,No known allergies,B,E,E,2024-12-15 07:21:45,221647
+0,original_note,Question 13: What was the patient's discharge medication status?,No medications found,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 14: What was the patient's vital status during hospitalization?,Stable,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 15: What was the patient's follow-up instruction regarding urgent care?,Call the primary care coordinator,C,E,C,2024-12-15 07:21:45,221647
+0,original_note,Question 16: What was the size of the left breast mass noted during the exam?,1.8 x 1.5 cm,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 17: What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:21:45,221647
+0,original_note,Question 18: What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 19: What was the patient's condition regarding pain control during hospitalization?,Well controlled,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,Question 20: What was the recommendation for diet upon discharge?,Regular diet,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:21:45,221647
+0,original_note,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:21:45,221647
+0,original_note,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:21:45,221647
+0,original_note,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:21:45,221647
+0,original_note,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:21:45,221647
+0,original_note,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:21:45,221647
+0,original_note,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:21:45,221647
+0,original_note,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:21:45,221647
+0,original_note,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,C,2024-12-15 07:21:45,221647
+0,original_note,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:21:45,221647
+0,original_note,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:21:45,221647
+0,AI_inj_r1,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,3. What was the discharge diagnosis for the patient?,Breast cancer,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,4. What was the patient's condition at discharge based on the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,5. What is the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,6. What was the patient's pain scale rating at discharge?,1,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,7. When is the patient's next follow-up appointment scheduled?,"July 10, 2024",C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,8. What type of discharge was given to the patient?,Elective discharge,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,9. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,10. What allergy is documented for the patient?,Penicillin,C,E,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,11. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,12. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,14. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,15. What should the patient seek urgent care for?,Shortness of breath,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,16. What was noted in the imaging studies regarding the left adrenal gland?,Nodular thickening requiring follow-up,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,17. What medications were noted for the patient upon discharge?,No outpatient medications,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,18. What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,19. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,20. What was the patient's active problem at the time of admission?,Elective surgery,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:22:06,221647
+0,AI_inj_r1,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:22:06,221647
+0,AI_inj_r1,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:22:06,221647
+0,AI_inj_r1,20. What was the patient's condition regarding allergies?,No known allergies,B,E,A,2024-12-15 07:22:06,221647
+0,AI_inj_r2,Question 1: What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 2: What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 3: What was the discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 4: What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 5: What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 6: What was the patient's pain scale at discharge?,1,D,D,D,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 7: What type of imaging studies were performed on the patient?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 8: What was the patient's allergy documented in the summary?,Penicillin,C,E,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 9: When is the patient's next appointment scheduled?,"July 10, 2024",C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 10: What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 11: What was the reason for hospitalization?,Elective surgery,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 12: What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 13: What was noted in the imaging studies regarding the left breast?,An irregular mass,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 14: What is the follow-up instruction regarding the surgical drain?,Remove in 7 days,C,E,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 15: What was the patient's past medical history significant for?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 16: What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 17: What type of cancer was confirmed by the left breast biopsy?,Invasive breast carcinoma,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 18: What was the patient's discharge type?,Elective discharge,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 19: What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,Question 20: What was the significant finding in the left axillary biopsy?,Metastatic involvement,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:22:26,221647
+0,AI_inj_r2,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:22:26,221647
+0,AI_inj_r2,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:22:26,221647
+0,AI_inj_r2,20. What was the patient's condition regarding allergies?,No known allergies,B,E,A,2024-12-15 07:22:26,221647
+0,AI_inj_r3,Question 1: What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 2: What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 3: What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 4: What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 5: What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 6: What was the patient's pain scale at discharge?,1,D,D,D,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 7: When is the patient's next appointment scheduled?,"July 10, 2024",C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 8: What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 9: What allergy is documented for the patient?,Penicillin,C,E,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 10: What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 11: What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 12: What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 13: What was the patient's active problem during hospitalization?,Elective surgery,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 14: What type of output was noted from the surgical drain?,Serosanguineous,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 15: What was the clinical stage of the left breast cancer?,cT1N0,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 16: What medications were noted for the patient upon discharge?,No outpatient medications,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 17: What should the patient do if they experience fever greater than 38.0°C?,Seek urgent care,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 18: What was the significant past medical history of the patient?,"Hypertension, ischemic heart disease, and diabetes",B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 19: What was the follow-up plan for the patient regarding the surgical drain?,Remove it in 7 days,C,E,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,Question 20: What was the result of the left axillary biopsy?,Metastatic involvement,C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:22:44,221647
+0,AI_inj_r3,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:22:44,221647
+0,AI_inj_r3,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:22:44,221647
+0,AI_inj_r3,20. What was the patient's condition regarding allergies?,No known allergies,B,E,A,2024-12-15 07:22:44,221647
+0,AI_inj_r4,Question 1: What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 2: What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 3: What was the discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 4: What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 5: What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 6: What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 7: What type of imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 8: What was the patient's allergy documented in the discharge summary?,Penicillin,C,E,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 9: What is the follow-up plan for the patient?,Surgical oncology clinic,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 10: When is the patient's next appointment scheduled?,"July 10, 2024",C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 11: What was the patient's discharge type?,Elective discharge,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 12: What was the patient's functional capacity at discharge?,Independent in all ADLs,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 13: What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 14: What was the patient's past medical history significant for?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 15: What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 16: What is the patient's code status?,Full code,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 17: What was the clinical stage of the left breast cancer?,cT1N0,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 18: What medications were noted for outpatient use at discharge?,No outpatient medications,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 19: What should the patient do if they experience shortness of breath post-discharge?,Seek urgent care,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,Question 20: What was the result of the left axillary biopsy?,Metastatic involvement,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:23:06,221647
+0,AI_inj_r4,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:23:06,221647
+0,AI_inj_r4,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:23:06,221647
+0,AI_inj_r4,20. What was the patient's condition regarding allergies?,No known allergies,B,E,A,2024-12-15 07:23:06,221647
+0,AI_inj_r5,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,2. What procedure was performed on the patient during her hospital stay?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,3. What was the discharge diagnosis for the patient?,Breast cancer,C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,4. What was the patient's condition at discharge based on the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,6. What type of imaging studies were performed on the patient?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:23:31,221647
+0,AI_inj_r5,8. What allergy does the patient have documented in her medical record?,Penicillin,C,E,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,9. What follow-up appointment is scheduled for the patient?,Surgical oncology clinic,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,10. What was the patient's discharge type?,Elective discharge,C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,11. What was the patient's active problem during hospitalization?,Elective surgery,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,12. What was the output from the surgical drain at discharge?,Serosanguineous,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,13. What is the patient's functional status regarding activities of daily living (ADLs)?,Independent,B,E,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,14. What is the next step in the patient's care after discharge?,Remove the surgical drain in 7 days,B,E,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,15. What significant past medical history does the patient have?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,16. What was the result of the bone scan performed on the patient?,Negative,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,17. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,18. What should the patient do if she experiences fever greater than 38.0°C after discharge?,Seek urgent care,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,19. What was noted in the imaging studies regarding the left adrenal gland?,Nodular thickening requiring follow-up,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,20. What medications were noted for the patient at discharge?,No outpatient medications,C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:23:31,221647
+0,AI_inj_r5,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:23:31,221647
+0,AI_inj_r5,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:23:31,221647
+0,AI_inj_r5,20. What was the patient's condition regarding allergies?,No known allergies,B,E,A,2024-12-15 07:23:31,221647
+0,AI_inj_ir1,Question 1: What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 2: What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 3: What was the discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 4: What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 5: What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 6: What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 7: What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 8: What is the follow-up plan for the patient?,"Surgical oncology clinic with Dr. Ze Daoud on July 10, 2024",B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 9: What type of code status does the patient have?,Full code,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 10: What was the patient's active problem during hospitalization?,Elective surgery,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 11: What was the result of the right breast biopsy?,Benign breast tissue,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 12: What medications were noted for the patient at discharge?,No outpatient medications,C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 13: What should the patient do if they experience shortness of breath after discharge?,Seek urgent care,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 14: What significant comorbidities does the patient have?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 15: What was the imaging finding in the left axillary lymph node?,Prominent cortical thickening,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 16: What type of cancer was confirmed by the left breast biopsy?,Invasive breast carcinoma,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 17: What is the patient's code status?,Full code,A,A,A,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 18: What was the patient's discharge type?,Elective discharge,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 19: What should the patient monitor for that indicates a need for urgent care?,Shortness of breath,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,Question 20: What was the pending test result at the time of discharge?,Histopathology,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:24:00,221647
+0,AI_inj_ir1,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:24:00,221647
+0,AI_inj_ir2,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,3. What was the patient's condition at discharge based on the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,4. What was the discharge diagnosis for the patient?,Breast cancer,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,8. What is the follow-up plan for the patient?,Surgical oncology clinic with Dr. Ze Daoud,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,11. What significant past medical history does the patient have?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,12. What was the result of the left breast biopsy?,Invasive breast carcinoma,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,13. What medications were noted for the patient at discharge?,No outpatient medications were noted,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,14. What should the patient do if she experiences shortness of breath after discharge?,Seek urgent care,D,D,D,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,15. What was the imaging finding in the right breast?,A mass with cystic formations,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,16. What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,17. What type of cancer was confirmed by the left breast biopsy?,Invasive breast carcinoma,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,18. What was the patient's condition regarding the surgical drain post-operatively?,The drain was in place with serosanguineous output,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,19. What is one of the conditions under which the patient should seek urgent care?,Shortness of breath,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,20. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:24:41,221647
+0,AI_inj_ir2,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:24:41,221647
+0,AI_inj_ir3,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,2. What procedure was performed on the patient during her hospital stay?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,4. What was the patient's condition at discharge based on the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,6. When is the patient's next follow-up appointment scheduled?,"July 10, 2024",C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,7. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,8. What was the patient's pain scale rating at discharge?,1,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,9. What type of code status does the patient have?,Full code,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,10. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,11. What was the result of the left breast biopsy?,Invasive breast carcinoma,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,12. What discharge medications were noted for the patient?,No outpatient medications,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,13. What should the patient seek urgent care for?,Shortness of breath,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,14. What was the patient's code status upon discharge?,Full code,A,A,A,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,15. What was the imaging finding in the left axillary lymph node?,Prominent cortical thickening,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,16. What is the patient's preferred diet mentioned in the discharge instructions?,Italian cuisine,C,A,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,17. What was the patient's condition regarding smoking?,Non-smoker,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,18. What type of cancer was confirmed by the left breast biopsy?,Invasive breast carcinoma,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,19. What was the patient's active problem during hospitalization?,Elective surgery,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,20. What was the patient's follow-up plan after discharge?,Surgical oncology clinic with Dr. Ze Daoud,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:25:27,221647
+0,AI_inj_ir3,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:25:27,221647
+0,AI_inj_ir4,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,3. What was the discharge diagnosis for the patient?,Breast cancer,C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,4. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,5. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,6. What was the patient's Glasgow Coma Scale score at discharge?,15,C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,7. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,8. What was the follow-up plan for the patient?,Next appointment with a surgical oncology clinic,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,9. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,10. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,11. What was the patient's comorbidity mentioned in the summary?,Hypertension,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,12. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,13. What type of output was noted from the surgical drain?,Serosanguineous,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,14. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,15. What should the patient do if they experience fever greater than 38.0°C?,Seek urgent care,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,16. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,17. What was the patient's preferred cuisine mentioned in the discharge summary?,Italian,C,E,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,18. What was the significant finding in the left axillary biopsy?,Metastatic involvement,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,19. What was the patient's status regarding smoking?,Non-smoker,C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,20. What was the next step regarding the CT scan findings?,Follow-up for gynecological evaluation,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:26:33,221647
+0,AI_inj_ir4,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:26:33,221647
+0,AI_inj_ir5,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,3. What was the discharge diagnosis for the patient?,Breast cancer,C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,4. What was the patient's condition at discharge based on the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,7. What was the patient's pain scale at discharge?,1,D,D,D,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,8. What was the follow-up plan for the patient?,Surgical oncology clinic,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,9. What type of code status did the patient have?,Full code,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,10. What was the patient's active problem during hospitalization?,Elective surgery,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,11. What was the patient's discharge date?,"July 1, 2024",B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,12. What medications were noted for the patient at discharge?,No outpatient medications were noted,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,13. What significant past medical history does the patient have?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,14. What should the patient seek urgent care for?,Shortness of breath,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,15. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,16. What type of cancer was confirmed by the left breast biopsy?,Invasive breast carcinoma,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,17. What was the patient's preferred cuisine mentioned in the discharge instructions?,Italian,C,E,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,18. What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,19. What was the status of the patient's surgical drain at discharge?,In place with serosanguineous output,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,20. What was the patient's condition regarding allergies?,No allergies noted,B,E,E,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:28:29,221647
+0,AI_inj_ir5,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:28:29,221647
+0,AI_omit_r1,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,2. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,3. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,4. What was the patient's Glasgow Coma Scale score at discharge?,15,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,5. What is the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,7. What was the patient's pain scale rating at discharge?,1,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,8. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,9. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,10. What was the follow-up plan for the patient?,Surgical oncology clinic with Dr. Ze Daoud,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,11. What type of biopsy confirmed the diagnosis of invasive breast carcinoma?,Left breast biopsy,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,12. What was the patient's discharge type?,Elective discharge,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,13. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:30:07,221647
+0,AI_omit_r1,14. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,15. What was noted in the imaging studies regarding the left adrenal gland?,Nodular thickening requiring follow-up,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,16. What medications were noted for the patient at discharge?,No outpatient medications,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,17. What should the patient do if they experience shortness of breath after discharge?,Seek urgent care,D,D,D,2024-12-15 07:30:07,221647
+0,AI_omit_r1,18. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,19. What was the clinical stage of the left breast cancer?,cT1N0,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,20. What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:30:07,221647
+0,AI_omit_r1,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:30:07,221647
+0,AI_omit_r1,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:30:07,221647
+0,AI_omit_r1,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:30:07,221647
+0,AI_omit_r2,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,2. On what date was the patient admitted to the hospital?,"June 29, 2024",B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,3. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,4. What was the discharge diagnosis for the patient?,Breast cancer,C,C,C,2024-12-15 07:31:58,221647
+0,AI_omit_r2,5. What was the patient's condition upon discharge?,Stable,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,6. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:31:58,221647
+0,AI_omit_r2,7. What was the patient's code status?,Full code,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,8. What follow-up appointment was scheduled for the patient?,Surgical oncology clinic,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,9. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:31:58,221647
+0,AI_omit_r2,10. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,11. What was the patient's past medical history significant for?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,12. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,13. What was the size of the mass located at the 12 o'clock position of the left breast?,1.8 x 1.5 cm,C,C,C,2024-12-15 07:31:58,221647
+0,AI_omit_r2,14. What medications were noted for the patient upon discharge?,No outpatient medications,C,C,C,2024-12-15 07:31:58,221647
+0,AI_omit_r2,15. What should the patient do if they experience shortness of breath after discharge?,Seek urgent care,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,17. What was the patient's functional status upon discharge?,Independent,B,B,E,2024-12-15 07:31:58,221647
+0,AI_omit_r2,18. What type of cancer was confirmed by the left breast biopsy?,Invasive breast carcinoma,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,19. What was the patient's age at the time of admission?,I don't know,E,E,E,2024-12-15 07:31:58,221647
+0,AI_omit_r2,20. What was the patient's allergy status?,No known allergies,B,E,E,2024-12-15 07:31:58,221647
+0,AI_omit_r2,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:31:58,221647
+0,AI_omit_r2,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,E,2024-12-15 07:31:58,221647
+0,AI_omit_r2,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,E,2024-12-15 07:31:58,221647
+0,AI_omit_r2,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:31:58,221647
+0,AI_omit_r2,7. What was the patient's pain scale rating at discharge?,1,D,D,E,2024-12-15 07:31:58,221647
+0,AI_omit_r2,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:31:58,221647
+0,AI_omit_r2,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:31:58,221647
+0,AI_omit_r2,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:31:58,221647
+0,AI_omit_r2,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:31:58,221647
+0,AI_omit_r3,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,2. On what date was the patient admitted to the hospital?,"June 29, 2024",B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,3. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,4. What was the discharge diagnosis for the patient?,Breast cancer,C,C,C,2024-12-15 07:34:06,221647
+0,AI_omit_r3,5. What is the patient's code status?,Full code,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,6. What significant comorbidity does the patient have?,Hypertension,C,C,C,2024-12-15 07:34:06,221647
+0,AI_omit_r3,7. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:34:06,221647
+0,AI_omit_r3,8. What was the patient's condition upon discharge?,Stable,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,9. When is the patient's next follow-up appointment scheduled?,"July 10, 2024",C,C,C,2024-12-15 07:34:06,221647
+0,AI_omit_r3,10. What type of diet was the patient instructed to follow upon discharge?,Regular,C,C,C,2024-12-15 07:34:06,221647
+0,AI_omit_r3,11. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,12. What should the patient do if they experience shortness of breath after discharge?,Seek urgent care,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,13. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,14. What type of output was noted from the surgical drain?,Serosanguineous,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,15. What is the patient's functional status upon discharge?,Independent,B,B,E,2024-12-15 07:34:06,221647
+0,AI_omit_r3,16. What allergy information is provided in the discharge summary?,No known allergies,A,E,E,2024-12-15 07:34:06,221647
+0,AI_omit_r3,17. What was the clinical stage of the left breast cancer?,cT1N0,A,A,A,2024-12-15 07:34:06,221647
+0,AI_omit_r3,18. What type of consultation was mentioned in the discharge summary?,Surgical oncology,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,19. What was the patient's age at the time of admission?,I don't know,E,E,E,2024-12-15 07:34:06,221647
+0,AI_omit_r3,20. What should the patient do if they experience uncontrolled pain after discharge?,Seek urgent care,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:34:06,221647
+0,AI_omit_r3,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,E,2024-12-15 07:34:06,221647
+0,AI_omit_r3,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,E,2024-12-15 07:34:06,221647
+0,AI_omit_r3,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:34:06,221647
+0,AI_omit_r3,7. What was the patient's pain scale rating at discharge?,1,D,D,E,2024-12-15 07:34:06,221647
+0,AI_omit_r3,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:34:06,221647
+0,AI_omit_r3,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:34:06,221647
+0,AI_omit_r3,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,E,2024-12-15 07:34:06,221647
+0,AI_omit_r3,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:34:06,221647
+0,AI_omit_r3,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:34:06,221647
+0,AI_omit_r4,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,2. What was the discharge diagnosis for the patient?,Breast cancer,C,C,C,2024-12-15 07:35:59,221647
+0,AI_omit_r4,3. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,4. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:35:59,221647
+0,AI_omit_r4,5. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,6. What significant comorbidity does the patient have?,Hypertension,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,7. What was the patient's condition at discharge?,Stable,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,8. When is the patient's next follow-up appointment scheduled?,"July 10, 2024",C,C,C,2024-12-15 07:35:59,221647
+0,AI_omit_r4,9. What type of output was noted from the surgical drain?,Serosanguineous,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,10. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,11. What should the patient do if they experience shortness of breath after discharge?,Seek urgent care,D,D,D,2024-12-15 07:35:59,221647
+0,AI_omit_r4,12. What was the date of the patient's discharge?,"July 1, 2024",C,C,C,2024-12-15 07:35:59,221647
+0,AI_omit_r4,13. What type of cancer was confirmed by the left breast biopsy?,Invasive breast carcinoma,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,14. What imaging study noted nodular thickening of the left adrenal gland?,CT scan,C,C,C,2024-12-15 07:35:59,221647
+0,AI_omit_r4,15. What medications was the patient taking for hypertension?,Bisoprolol and Hydrochlorothiazide,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,16. What is the patient's functional status upon discharge?,Independent,B,B,E,2024-12-15 07:35:59,221647
+0,AI_omit_r4,17. What should the patient monitor for as a sign of surgical site complications?,Fever > 38.0°C,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,18. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,19. What type of discharge was given to the patient?,Elective discharge,C,C,C,2024-12-15 07:35:59,221647
+0,AI_omit_r4,20. What was the patient's age at the time of admission?,I don't know,E,E,E,2024-12-15 07:35:59,221647
+0,AI_omit_r4,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:35:59,221647
+0,AI_omit_r4,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,E,2024-12-15 07:35:59,221647
+0,AI_omit_r4,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,E,2024-12-15 07:35:59,221647
+0,AI_omit_r4,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:35:59,221647
+0,AI_omit_r4,7. What was the patient's pain scale rating at discharge?,1,D,D,E,2024-12-15 07:35:59,221647
+0,AI_omit_r4,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:35:59,221647
+0,AI_omit_r4,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:35:59,221647
+0,AI_omit_r4,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,E,2024-12-15 07:35:59,221647
+0,AI_omit_r4,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:35:59,221647
+0,AI_omit_r4,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:35:59,221647
+0,AI_omit_r5,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,2. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,3. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,4. What was the patient's Glasgow Coma Scale score at discharge?,15,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:38:12,221647
+0,AI_omit_r5,8. What significant comorbidity does the patient have?,Hypertension,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,9. What type of code status does the patient have?,Full code,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,10. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,11. What should the patient do if they experience shortness of breath after discharge?,Seek urgent care,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,13. What type of discharge was given to the patient?,Elective discharge,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,14. What was the output from the surgical drain at discharge?,Serosanguineous,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,15. What imaging study noted nodular thickening of the left adrenal gland?,CT scan,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,16. What is one of the discharge instructions regarding when to seek urgent care?,If experiencing fever > 38.0°C,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,17. What was the size of the mass located at the 12 o'clock position of the left breast?,1.8 x 1.5 cm,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,18. What type of biopsy confirmed the diagnosis of invasive breast carcinoma?,Left breast biopsy,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,19. What medications is the patient currently managed with for hypertension?,Bisoprolol and Hydrochlorothiazide,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,20. What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:38:12,221647
+0,AI_omit_r5,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,E,2024-12-15 07:38:12,221647
+0,AI_omit_r5,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:38:12,221647
+0,AI_omit_r5,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,E,2024-12-15 07:38:12,221647
+0,AI_omit_r5,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:38:12,221647
+0,AI_omit_r5,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,E,2024-12-15 07:38:12,221647
+0,AI_omit_r5,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:38:12,221647
+0,AI_omit_ir1,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,4. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,5. What was the patient's Glasgow Coma Scale score at discharge?,15,C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,7. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,9. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,10. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,11. What was the patient's comorbidity noted in the summary?,Hypertension,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,12. What was the status of the right breast biopsy?,Benign breast tissue,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,13. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,14. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,15. What was the imaging finding in the left axillary lymph node?,Prominent cortical thickening,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,16. What was the patient's discharge medication plan?,No outpatient medications noted,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,17. What should the patient do if they experience shortness of breath after discharge?,Seek urgent care,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,18. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,19. What was the next appointment scheduled for the patient?,Surgical oncology clinic,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,20. What was the patient's status regarding smoking?,Non-smoker,C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:39:29,221647
+0,AI_omit_ir1,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:39:29,221647
+0,AI_omit_ir2,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,4. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,5. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,6. What was the patient's Glasgow Coma Scale score at discharge?,15,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,7. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,9. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,10. What comorbidities did the patient have?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,11. What type of code status did the patient have?,Full code,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,12. What was the output from the surgical drain post-operatively?,Serosanguineous output,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,13. What was the date of the patient's discharge?,"July 1, 2024",B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,14. What was the patient's discharge type?,Elective discharge,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,15. What was the patient's imaging finding in the right breast?,Cystic formations,C,A,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,16. What should the patient do if they experience shortness of breath after discharge?,Seek urgent care,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,17. What was the status of the left axillary lymph node?,Metastatic involvement,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,18. What medications were noted for the patient at discharge?,No outpatient medications,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,19. What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,20. What was the next appointment scheduled for the patient?,Surgical oncology clinic,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:40:32,221647
+0,AI_omit_ir2,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:40:32,221647
+0,AI_omit_ir3,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,3. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,4. What was the discharge diagnosis for the patient?,Breast cancer,C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,8. What was the follow-up plan for the patient?,Surgical oncology clinic,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,9. What type of code status did the patient have?,Full code,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,10. What was the patient's discharge type?,Elective discharge,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,12. What was the result of the right breast biopsy?,Benign breast tissue,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,13. What was noted in the CT scan regarding the left adrenal gland?,Nodular thickening requiring follow-up,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,14. What medications were noted for outpatient use at discharge?,No outpatient medications,C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,15. What should the patient seek urgent care for?,Shortness of breath,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,16. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,17. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,18. What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,19. What was the output from the surgical drain post-operatively?,Serosanguineous output,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,20. What was the next appointment scheduled for the patient?,Surgical oncology clinic,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:41:54,221647
+0,AI_omit_ir3,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:41:54,221647
+0,AI_omit_ir4,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,4. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,5. What was the patient's Glasgow Coma Scale score at discharge?,15,C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,7. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,9. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,10. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,11. What was the patient's comorbidity noted in the summary?,Hypertension,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,12. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,13. What was the next appointment scheduled for the patient?,Surgical oncology clinic,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,14. What was the status of the patient's biopsy results for the left breast?,Invasive breast carcinoma,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,15. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,16. What was the significant imaging finding in the left axillary lymph node?,Prominent cortical thickening,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,17. What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,18. What was the patient's discharge medication plan?,No outpatient medications noted,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,19. What should the patient seek urgent care for?,Shortness of breath,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,20. What was the clinical stage of the left breast cancer?,cT1N0,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:43:10,221647
+0,AI_omit_ir4,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:43:10,221647
+0,AI_omit_ir5,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,2. On what date was the patient admitted to the hospital?,"June 29, 2024",B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,3. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,4. What was the discharge diagnosis for the patient?,Breast cancer,C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,5. What was the patient's Glasgow Coma Scale score at discharge?,15,C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,6. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,7. What type of imaging studies were performed on the patient?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,8. What was the patient's pain scale rating at discharge?,1,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,9. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,10. What was the follow-up plan for the patient?,Follow-up with surgical oncology clinic,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,11. What medications were noted for the patient at discharge?,No outpatient medications,C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,12. What significant past medical history does the patient have?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,13. What was the patient's condition regarding surgical drains at discharge?,Surgical drain with serosanguineous output,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,14. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,15. What should the patient do if they experience shortness of breath after discharge?,Seek urgent care,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,16. What was the clinical stage of the left breast cancer?,cT1N0,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,17. What type of biopsy confirmed the diagnosis of invasive breast carcinoma?,Left breast biopsy,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,18. What was the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,19. What was the patient's discharge type?,Elective discharge,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,20. What was the follow-up appointment scheduled for?,"July 10, 2024",C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,1. What was the admission diagnosis for the patient?,Left breast cancer,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,2. What procedure was performed on the patient?,Left total wide local excision with axillary dissection,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,3. What was the patient's discharge diagnosis?,Breast cancer,C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,4. What was the patient's condition at discharge according to the Glasgow Coma Scale?,15,C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,5. What was the patient's performance status at discharge?,0 (Fully active),C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,6. What imaging study revealed an irregular mass in the left breast?,Mammography and breast ultrasound,C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,7. What was the patient's pain scale rating at discharge?,1,D,D,D,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,8. What was the follow-up plan for the patient?,Follow-up with a surgical oncology clinic,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,9. What type of discharge was noted for the patient?,Elective discharge,C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,10. What was the patient's code status upon admission?,Full code,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,11. What was the significant past medical history of the patient?,Hypertension and ischemic heart disease,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,12. What was the receptor status of the left breast carcinoma?,"ER 90%, PR 70%, HER-2/neu negative",B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,13. What was the output from the surgical drain post-operatively?,Serosanguineous,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,14. What should the patient do if they experience shortness of breath after discharge?,Call the emergency room,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,15. What was noted about the patient's smoking status?,Non-smoker,C,C,C,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,16. What was the result of the bone scan?,Negative,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,17. What medications were noted for the patient at discharge?,No outpatient medications,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,18. What was the size of the mass located in the left breast?,1.8 x 1.5 cm,C,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,19. What was the patient's follow-up appointment scheduled with?,Dr. Ze Daoud,B,B,B,2024-12-15 07:44:40,221647
+0,AI_omit_ir5,20. What was the patient's condition regarding allergies?,No known allergies,B,E,E,2024-12-15 07:44:40,221647

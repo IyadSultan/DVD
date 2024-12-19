@@ -372,10 +372,12 @@ def main():
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
         if not file_exists:
             writer.writeheader()
-        for result_group in results:
-            for result in result_group:
-                result["total_tokens"] = total_tokens[0]  # Add token count to each row
-                writer.writerow(result)
+        
+        # Fix: Modify how we handle the results
+        for result in results:  # results is already a list of dictionaries
+            result_dict = dict(result)  # Create a copy of the result dictionary
+            result_dict["total_tokens"] = total_tokens[0]  # Add token count
+            writer.writerow(result_dict)
 
     print(f"\nResults written to {args.result_csv}")
     print(f"Total tokens used: {total_tokens[0]}")
