@@ -141,8 +141,19 @@ class NoteProcessor:
             return None
 
     def create_ai_rewrite(self, note: str) -> Dict:
-        """Create initial AI rewrite of the note with metrics."""
-        system_message = "Rewrite the note professionally, maintaining clinical accuracy while omitting normal lab values and normal vital signs."
+        """Create initial AI rewrite of the note with metrics, using relevancy criteria from note_criteria.json."""
+        # Get relevancy criteria from JSON config
+        criteria = self.get_relevancy_criteria()
+        criteria_text = "\n".join(f"{i+1}. {c}" for i, c in enumerate(criteria, 1))
+        
+        system_message = f"""Rewrite the note professionally while:
+1. Maintaining all information that meets these relevancy criteria:
+{criteria_text}
+
+2. Omitting:
+- Any information that does not meet the above criteria
+
+Ensure the rewrite maintains clinical accuracy and includes all relevant abnormal findings."""
         
         start_time = time.time()
         input_tokens = count_tokens(system_message + note, self.model_name)
@@ -164,7 +175,7 @@ class NoteProcessor:
         
         return {
             'modified_text': modified_text,
-            'modification_prompt': "Professional rewrite with normal values omitted",
+            'modification_prompt': "Professional rewrite using relevancy criteria, omitting normal labs/vitals",
             'processing_time': processing_time,
             'input_tokens': input_tokens,
             'output_tokens': output_tokens,
